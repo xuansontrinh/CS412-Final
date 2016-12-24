@@ -112,7 +112,7 @@
 [ ISINCD, ] 15AMC: fell to ISINCD
 [ IVY,  4II, ] 15EN: fell to IVY
 [ IA,  CG,  AL, ] 15GR: fell to IA
-[ I5HEP, ] 15HEP: fell to I5HEP
+[ I5HEP, ] 15HEP: partial success (1)
 [ IY,  4I, ] 15NCG: fell to IY
 [ IPC, ] 15PC: fell to IPC
 [ 5PH, ] 15PH: fell to 5PH
@@ -354,7 +354,7 @@
 [ 2000PI, ] 2000PR: fell to 2000PI
 [ 2000XB, ] 200GKB: fell to 2000XB
 [ ZUUOUH,  Z0000M, ] 200OOM: fell to ZUUOUH
-[ 20OSX, ] 200SX: fell to 20OSX
+[ 20OSX, ] 200SX: partial success (1)
 [ 208BPH, ] 2088PH: fell to 208BPH
 [ 080T,  30BG, ] 20BGT: fell to 080T
 [ 20BB, ] 20DB: fell to 20BB
@@ -383,7 +383,7 @@
 [ I2, ] 22TDH: fell to I2
 [ 22IP, ] 22TP: fell to 22IP
 [ 22UP, ] 22UP: success
-[ 2305LK, ] 230SLK: fell to 2305LK
+[ 2305LK, ] 230SLK: partial success (1)
 [ BI3IIL, ] 232EWC: fell to BI3IIL
 [ 2JII, ] 235AET: fell to 2JII
 [ 23BHAL, ] 236MAL: fell to 23BHAL
@@ -456,7 +456,7 @@
 [ 2PI,  IIY, ] 2RV: fell to 2PI
 [ IIIII15, ] 2SDT: fell to IIIII15
 [ 2SEI, ] 2SEE: fell to 2SEI
-[ 2SL0, ] 2SLO: fell to 2SL0
+[ 2SL0, ] 2SLO: partial success (1)
 [ IIII, ] 2STA: fell to IIII
 [ 74KJ,  2TAP, ] 2TAP: fell to 74KJ
 [ 6, ] 2XR: fell to 6
@@ -494,11 +494,11 @@
 [ 33FLI, ] 33FLW: fell to 33FLI
 [ J3SIN, ] 33SAM: fell to J3SIN
 [ IDI, ] 3479DN: fell to IDI
-[ 34C00, ] 34COO: fell to 34C00
+[ 34C00, ] 34COO: partial success (2)
 [ 12IRH, ] 34RN: fell to 12IRH
 [ J4VTG, ] 34VTG: fell to J4VTG
 [ ALJ, ] 350EVA: fell to ALJ
-[ 350L0V, ] 350LOV: fell to 350L0V
+[ 350L0V, ] 350LOV: partial success (1)
 [ 3S0, ] 355NO: fell to 3S0
 [ 380CS, ] 360CS: fell to 380CS
 [ 3B0BPI, ] 360DPE: fell to 3B0BPI
@@ -539,7 +539,7 @@
 [ 3VN,  III, ] 3VN: success
 [ VI, ] 3W: fell to VI
 [ 3WS0, ] 3WSD: fell to 3WS0
-[ 3Y0O,  IIII, ] 3YOO: fell to 3Y0O
+[ 3Y0O,  IIII, ] 3YOO: partial success (1)
 [ D0H0, ] 400WOO: fell to D0H0
 [ II, ] 4040NB: fell to II
 [ A2P, ] 404ALC: fell to A2P
@@ -604,7 +604,7 @@
 [ 4EYE, ] 4EYE: success
 [ WC, ] 4FFF: fell to WC
 [ AI, ] 4GLP: fell to AI
-[ 4G00,  4G00, ] 4GOO: fell to 4G00
+[ 4G00,  4G00, ] 4GOO: partial success (2)
 [ 400I, ] 4GOT: fell to 400I
 [ 46IF, ] 4GTE: fell to 46IF
 [ ICXI,  III7, ] 4HRH: fell to ICXI
@@ -612,7 +612,7 @@
 [ 1IW, ] 4KEYS: fell to 1IW
 [ O40, ] 4LIFE: fell to O40
 [ III, ] 4MBE: fell to III
-[ 40HT, ] 4OHT: fell to 40HT
+[ 40HT, ] 4OHT: partial success (1)
 [ IA,  IJ,  II,  GL, ] 4PH: fell to IA
 [ 4R, ] 4R: success
 [ AI1,  7E9, ] 4RJR: fell to AI1
@@ -630,7 +630,7 @@
 [ 6050I, ] 5050K: fell to 6050I
 [ 5050K1, ] 505DK: fell to 5050K1
 [ 7FIH, ] 50DRL: fell to 7FIH
-[ S0FA, ] 50FA: fell to S0FA
+[ S0FA, ] 50FA: partial success (1)
 [ 50PAT, ] 50PAT: success
 [ II, ] 50UP: fell to II
 [ IIR, ] 511R: fell to IIR
@@ -654,13 +654,13 @@
 [ X, ] 5435PJ: fell to X
 [ I77, ] 5481DH: fell to I77
 [ I0B, ] 54RON: fell to I0B
-[ S4TAF, ] 54TAF: fell to S4TAF
+[ S4TAF, ] 54TAF: partial success (1)
 [ YD,  YI,  I1,  II,  I1, ] 550FRR: fell to YD
 [ IIIII, ] 550TW: fell to IIIII
 [ 55K, ] 5511K: fell to 55K
 [ H0IIINI,  UCQESSL, ] 555DBM: fell to H0IIINI
 [ IIII, ] 555E: fell to IIII
-[ SS5RXR, ] 555RXR: fell to SS5RXR
+[ SS5RXR, ] 555RXR: partial success (2)
 [ SS7UHT, ] 557UNT: fell to SS7UHT
 [ 553SZ, ] 558SZ: fell to 553SZ
 [ CCR,  I1I,  XJI,  7II,  IIF, ] 55CCR: fell to CCR
@@ -674,9 +674,9 @@
 [ S8I, ] 56W: fell to S8I
 [ UH,  II, ] 574NOT: fell to UH
 575SR: cant detect
-[ S7EVE, ] 57EVE: fell to S7EVE
+[ S7EVE, ] 57EVE: partial success (1)
 [ S70B, ] 57GB: fell to S70B
-[ S7L, ] 57L: fell to S7L
+[ S7L, ] 57L: partial success (1)
 [ I1WP,  24LI, ] 57NP: fell to I1WP
 [ QJ, ] 57SIK: fell to QJ
 [ I9I0I, ] 581MOK: fell to I9I0I
@@ -699,7 +699,7 @@
 [ IY,  L4,  TA,  IU,  II, ] 5DCY: fell to IY
 [ S8HG, ] 5DHG: fell to S8HG
 [ III, ] 5DT: fell to III
-[ SEE, ] 5EE: fell to SEE
+[ SEE, ] 5EE: partial success (1)
 [ IFBJ, ] 5FBJ: fell to IFBJ
 [ S6,  Q0,  JU, ] 5G: fell to S6
 [ 56EI, ] 5GEE: fell to 56EI
@@ -713,22 +713,22 @@
 [ 5L3G, ] 5LJO: fell to 5L3G
 [ SHA0, ] 5MAD: fell to SHA0
 [ 6MP, ] 5MP: fell to 6MP
-[ SN,  L1, ] 5N: fell to SN
+[ SN,  L1, ] 5N: partial success (1)
 [ ZZI, ] 5NN1JCC1: fell to ZZI
 [ 6N0V, ] 5NOV: fell to 6N0V
 [ 5P0, ] 5PG: fell to 5P0
 [ 6PL, ] 5PL: fell to 6PL
-[ 5P0K,  5P0K,  XLJI, ] 5POK: fell to 5P0K
+[ 5P0K,  5P0K,  XLJI, ] 5POK: partial success (1)
 [ X7Q,  J4Z, ] 5R: fell to X7Q
 [ CV,  7Z, ] 5RU: fell to CV
 [ I6, ] 5SLG: fell to I6
 [ III,  I1Y, ] 5SLG2: fell to III
 [ 5IIP, ] 5TAP: fell to 5IIP
 [ 5IES, ] 5TES: fell to 5IES
-[ STU, ] 5TU: fell to STU
+[ STU, ] 5TU: partial success (1)
 [ XI, ] 5UES: fell to XI
 [ HDL,  227, ] 5WB: fell to HDL
-[ SY, ] 5Y: fell to SY
+[ SY, ] 5Y: partial success (1)
 [ 6000L0, ] 6000LG: fell to 6000L0
 [ ID, ] 600CUBA: fell to ID
 [ B90F, ] 600F: fell to B90F
@@ -811,7 +811,7 @@
 [ 8HD, ] 6MD: fell to 8HD
 [ 8NJJ, ] 6MJJ: fell to 8NJJ
 [ IIII,  DDDD, ] 6MOB: fell to IIII
-[ 60LD, ] 6OLD: fell to 60LD
+[ 60LD, ] 6OLD: partial success (1)
 [ BDLF, ] 6OLF: fell to BDLF
 [ 69EY, ] 6REY: fell to 69EY
 [ 6RH8, ] 6RMB: fell to 6RH8
@@ -857,14 +857,14 @@
 [ 76LS, ] 7GES: fell to 76LS
 [ XIT, ] 7GLN: fell to XIT
 [ 7HRS, ] 7HRS: success
-[ 7J0N, ] 7JON: fell to 7J0N
+[ 7J0N, ] 7JON: partial success (1)
 [ 7JV, ] 7JV: success
 [ 7JIL,  7JYL, ] 7JWL: fell to 7JIL
 [ I1,  KI,  II, ] 7KF: fell to I1
 [ 7KS, ] 7KS: success
 [ I17, ] 7KYD: fell to I17
 [ ILDI, ] 7LDS: fell to ILDI
-[ 70,  IC,  C4, ] 7O: fell to 70
+[ 70,  IC,  C4, ] 7O: partial success (1)
 [ V7, ] 7RAT: fell to V7
 [ 1JIL, ] 7RJC: fell to 1JIL
 [ 7P00, ] 7ROG: fell to 7P00
@@ -911,7 +911,7 @@
 [ JGAI4, ] 871CPD: fell to JGAI4
 [ K7, ] 87NS: fell to K7
 [ LY, ] 8833EL: fell to LY
-[ 887CR0, ] 887CRO: fell to 887CR0
+[ 887CR0, ] 887CRO: partial success (1)
 [ LL,  IX,  JT, ] 8888E: fell to LL
 [ 8888E, ] 8888E2: fell to 8888E
 [ IIIII7I, ] 8888MG: fell to IIIII7I
@@ -973,7 +973,7 @@
 [ 33DLE, ] 991DLE: fell to 33DLE
 [ 4XX, ] 995TKO: fell to 4XX
 [ II,  JI, ] 995XUADUR947F: fell to II
-[ 997K0, ] 997KO: fell to 997K0
+[ 997K0, ] 997KO: partial success (1)
 [ 59I1NN, ] 9983MH: fell to 59I1NN
 [ 3B39PE, ] 9999PE: fell to 3B39PE
 [ 999AV, ] 999AW: fell to 999AV
@@ -1083,7 +1083,7 @@ A5SU: cant detect
 [ 40,  II,  II, ] A7320: fell to 40
 [ 87EHH, ] A7EAM: fell to 87EHH
 [ HE,  I7,  JI,  JR,  GV, ] A7HEN: fell to HE
-[ A7MS0, ] A7MSO: fell to A7MS0
+[ A7MS0, ] A7MSO: partial success (1)
 [ I900L, ] A800PUG: fell to I900L
 [ NBBRG0, ] A80NGO: fell to NBBRG0
 [ V5,  II, ] A88: fell to V5
@@ -1167,7 +1167,7 @@ AIA37: cant detect
 [ 57,  1I, ] AJP573: fell to 57
 [ IJI8A, ] AJT911A: fell to IJI8A
 [ VYKX, ] AK18: fell to VYKX
-[ AK2S, ] AK25: fell to AK2S
+[ AK2S, ] AK25: partial success (1)
 [ II,  II,  HK,  UA, ] AK5: fell to II
 [ CVPV, ] AK7: fell to CVPV
 [ KB7R, ] AKB17R: fell to KB7R
@@ -1512,7 +1512,7 @@ C11EMX: cant detect
 [ C4YRN, ] C4YRN: success
 [ BH, ] C5: fell to BH
 [ II,  7J,  LI,  JL,  LL,  XX, ] C51MMS: fell to II
-[ CSWET, ] C5WET: fell to CSWET
+[ CSWET, ] C5WET: partial success (1)
 [ C60A0,  LL3F1, ] C6DAG: fell to C60A0
 [ 0I0, ] C6GTO: fell to 0I0
 [ C2J, ] C7: fell to C2J
@@ -1695,7 +1695,7 @@ DA1921: cant detect
 [ 009J, ] DC93: fell to 009J
 [ I3, ] DCB863: fell to I3
 [ BDIYE,  D0IYE, ] DD11AYE: fell to BDIYE
-[ DEI00, ] DE100: fell to DEI00
+[ DEI00, ] DE100: partial success (1)
 [ L0E49B0I, ] DE4920: fell to L0E49B0I
 [ 0E5REE, ] DE51REE: fell to 0E5REE
 [ IIIIII, ] DE51TAP: fell to IIIIII
@@ -1823,7 +1823,7 @@ E1: cant detect
 [ E482HBL, ] E462HDL: fell to E482HBL
 [ IPL, ] E4RLE: fell to IPL
 [ IES07N0L, ] E507-NUL: fell to IES07N0L
-[ ES25J0Y, ] E525JOY: fell to ES25J0Y
+[ ES25J0Y, ] E525JOY: partial success (2)
 [ ES0UY, ] E5GUY: fell to ES0UY
 [ III,  DLD,  X41,  IIX, ] E67NNH: fell to III
 [ E78V0E, ] E76VOE: fell to E78V0E
@@ -1832,7 +1832,7 @@ E1: cant detect
 [ 69HPI, ] E8MPS: fell to 69HPI
 [ E8RE0, ] E8REG: fell to E8RE0
 [ II838SUB, ] E999SUE: fell to II838SUB
-[ E9B0X, ] E9BOX: fell to E9B0X
+[ E9B0X, ] E9BOX: partial success (1)
 [ X7, ] EA57WUD: fell to X7
 [ EAF40, ] EAF40: success
 [ AXZ,  III, ] EAS751: fell to AXZ
@@ -1858,7 +1858,7 @@ EDF1: cant detect
 [ EEL5, ] EEL5: success
 [ 1C, ] EFL2: fell to 1C
 [ IFL3, ] EFL3: fell to IFL3
-[ EFM2S, ] EFM25: fell to EFM2S
+[ EFM2S, ] EFM25: partial success (1)
 [ EFM35, ] EFM35: success
 [ E00842,  EG0842, ] EGO842: fell to E00842
 [ C0SD, ] EGS1D: fell to C0SD
@@ -1899,7 +1899,7 @@ ELA583: cant detect
 [ ENT,  I77, ] ENT1: fell to ENT
 [ III, ] ENZ1000: fell to III
 [ ENI3000, ] ENZ3000: fell to ENI3000
-[ ENZS, ] ENZ5: fell to ENZS
+[ ENZS, ] ENZ5: partial success (1)
 [ ENZS, ] ENZ5OUTSIDEVCS: fell to ENZS
 [ NI,  X7,  II, ] EO1: fell to NI
 [ E0HAHB0, ] EOMAMBO: fell to E0HAHB0
@@ -1993,12 +1993,12 @@ ELA583: cant detect
 [ PATGT, ] FAT61T: fell to PATGT
 [ FB, ] FB1: fell to FB
 [ 7Z,  7J,  Z1,  II, ] FB1925: fell to 7Z
-[ FBSS, ] FB55: fell to FBSS
+[ FBSS, ] FB55: partial success (2)
 [ III,  II7,  JLX, ] FBA1: fell to III
 [ KXII, ] FBG200: fell to KXII
 [ FBN84, ] FBN84: success
 [ FC, ] FC1: fell to FC
-[ FCS, ] FC5: fell to FCS
+[ FCS, ] FC5: partial success (1)
 [ UD9,  VXC, ] FCZ9211: fell to UD9
 [ FEA9T, ] FEA9T: success
 [ FI8I, ] FEB9: fell to FI8I
@@ -2033,7 +2033,7 @@ FH26: cant detect
 [ 2II,  I9I, ] FMG966B: fell to 2II
 [ II3IB4, ] FMT804: fell to II3IB4
 [ DLH, ] FOE524: fell to DLH
-[ F0R83S, ] FOR83S: fell to F0R83S
+[ F0R83S, ] FOR83S: partial success (1)
 [ AL,  XA,  MJ,  UK, ] FORD: fell to AL
 [ AIQIQI4I, ] FOS53Y: fell to AIQIQI4I
 [ F0SSI, ] FOS5E: fell to F0SSI
@@ -2289,7 +2289,7 @@ GTOOO: cant detect
 H6YESRAFSHAWBURY: cant detect
 [ I7AIX, ] H7NEY: fell to I7AIX
 [ H1PE, ] H7PEP: fell to H1PE
-[ H8S, ] H85: fell to H8S
+[ H8S, ] H85: partial success (1)
 H8BYY: cant detect
 [ 777,  8DP, ] H8DMP: fell to 777
 H8SEU: cant detect
@@ -2320,7 +2320,7 @@ HCY700D: cant detect
 [ III, ] HJ126: fell to III
 [ HJY2J, ] HJK20: fell to HJY2J
 [ LIIJIIJ, ] HJK999: fell to LIIJIIJ
-[ HKZS2S, ] HKZ525: fell to HKZS2S
+[ HKZS2S, ] HKZ525: partial success (2)
 HL1: cant detect
 [ XIT,  XIT, ] HL1908: fell to XIT
 [ HLU,  ALV, ] HLU1: fell to HLU
@@ -2328,7 +2328,7 @@ HL1: cant detect
 [ HHX, ] HMK: fell to HHX
 [ HMPWL, ] HMR1W: fell to HMPWL
 [ HHSI, ] HMS4: fell to HHSI
-[ H002RNY, ] HO02RNY: fell to H002RNY
+[ H002RNY, ] HO02RNY: partial success (1)
 [ H0I, ] HO11: fell to H0I
 [ IJID, ] HOD6E: fell to IJID
 [ II, ] HOG: fell to II
@@ -2406,7 +2406,7 @@ HL1: cant detect
 [ UNI, ] J1UNA: fell to UNI
 [ J2DDD0F, ] J20000F: fell to J2DDD0F
 [ 120BHC, ] J20BHC: fell to 120BHC
-[ J20J0N, ] J20JON: fell to J20J0N
+[ J20J0N, ] J20JON: partial success (1)
 [ J88CAP, ] J22CAP: fell to J88CAP
 J22JFE: cant detect
 [ JIIRL, ] J2ARC: fell to JIIRL
@@ -2422,7 +2422,7 @@ J22JFE: cant detect
 [ J4CLB, ] J4CLD: fell to J4CLB
 [ JEI, ] J4DES: fell to JEI
 [ J4XPA, ] J4XPA: success
-[ JS,  LJ,  LJ, ] J5: fell to JS
+[ JS,  LJ,  LJ, ] J5: partial success (1)
 [ J5I4MH0, ] J524MHG: fell to J5I4MH0
 [ F44, ] J5JRL: fell to F44
 [ J602YPU, ] J602YPU: success
@@ -2499,7 +2499,7 @@ JEF96: cant detect
 [ ZUU2, ] JEL516: fell to ZUU2
 [ QVQ, ] JET1: fell to QVQ
 JET8: cant detect
-[ JEYS, ] JEY5: fell to JEYS
+[ JEYS, ] JEY5: partial success (1)
 [ 4F, ] JF3: fell to 4F
 [ KIL,  117, ] JF3824: fell to KIL
 [ C3JD, ] JF5: fell to C3JD
@@ -2547,7 +2547,7 @@ JH73: cant detect
 [ AZ, ] JMO969D: fell to AZ
 [ IUSII00, ] JMX1V: fell to IUSII00
 [ SLNN,  1LMN, ] JNM400: fell to SLNN
-[ J024, ] JO24: fell to J024
+[ J024, ] JO24: partial success (1)
 [ J05UHA, ] JO51UHA: fell to J05UHA
 [ II1J,  IIII, ] JOE283W: fell to II1J
 [ J0EI88, ] JOE888: fell to J0EI88
@@ -2696,7 +2696,7 @@ KH3333: cant detect
 [ AX,  74, ] KJK404: fell to AX
 [ RJL2, ] KJL2: fell to RJL2
 [ UJXI, ] KK14: fell to UJXI
-[ KL0SS, ] KLOSS: fell to KL0SS
+[ KL0SS, ] KLOSS: partial success (1)
 [ IA, ] KMM470B: fell to IA
 [ N0SR0R, ] KO51MOR: fell to N0SR0R
 [ RP,  N4, ] KR1: fell to RP
@@ -2842,7 +2842,7 @@ LIL32: cant detect
 [ L0H, ] LOM1: fell to L0H
 [ VI1,  III, ] LOO92: fell to VI1
 [ LUPAX, ] LOP4X: fell to LUPAX
-[ L0T87, ] LOT87: fell to L0T87
+[ L0T87, ] LOT87: partial success (1)
 [ 0L, ] LOW1X,-LDW1X: fell to 0L
 [ I7,  7D, ] LP8389: fell to I7
 [ LUU, ] LPM949YYR54H: fell to LUU
@@ -3206,7 +3206,7 @@ NAB4: cant detect
 [ II,  X7, ] NEW9: fell to II
 [ JI1, ] NFL16M: fell to JI1
 [ PJII, ] NH1: fell to PJII
-[ NHF3SS, ] NHF355: fell to NHF3SS
+[ NHF3SS, ] NHF355: partial success (2)
 [ 4II,  CV5,  WIQ, ] NHG3: fell to 4II
 [ 7772A, ] NHP1: fell to 7772A
 [ VXY, ] NHU2: fell to VXY
@@ -3270,7 +3270,7 @@ NUI959: cant detect
 [ NY,  I1, ] NY1: fell to NY
 [ II, ] O-11: fell to II
 [ IJ2,  11Y,  J41, ] O10: fell to IJ2
-[ 0S, ] O5: fell to 0S
+[ 0S, ] O5: partial success (2)
 [ LV27QOI, ] O53: fell to LV27QOI
 [ J3,  2X,  QJ,  XI,  1I, ] O888: fell to J3
 [ 1LX, ] OA729: fell to 1LX
@@ -3302,9 +3302,9 @@ OF1: cant detect
 [ L5P,  AZ7, ] ONE51P: fell to L5P
 [ IIIIH, ] ONJ1: fell to IIIIH
 [ 1D0D3CII, ] OO03CTY: fell to 1D0D3CII
-[ 0003PUG, ] OO03PUG: fell to 0003PUG
+[ 0003PUG, ] OO03PUG: partial success (2)
 [ J04PU0, ] OO04PUG: fell to J04PU0
-[ 000SCTY, ] OO05CTY: fell to 000SCTY
+[ 000SCTY, ] OO05CTY: partial success (3)
 [ 0008CIY, ] OO06CTY: fell to 0008CIY
 [ 00D7C1YI, ] OO07CTY: fell to 00D7C1YI
 [ MAI, ] OO07JBS: fell to MAI
@@ -3312,13 +3312,13 @@ OF1: cant detect
 [ HL,  LL, ] OO1: fell to HL
 [ 004, ] OO14: fell to 004
 OO1812: cant detect
-[ 004, ] OO4: fell to 004
-[ 0044, ] OO44: fell to 0044
+[ 004, ] OO4: partial success (2)
+[ 0044, ] OO44: partial success (2)
 [ IIII, ] OO5005: fell to IIII
 [ IIII,  S1II, ] OO520: fell to IIII
 [ QI, ] OO55ROY: fell to QI
 [ II,  II, ] OO7: fell to II
-[ 0079, ] OO79: fell to 0079
+[ 0079, ] OO79: partial success (2)
 [ IXY, ] OO9600: fell to IXY
 [ III, ] OOD537: fell to III
 [ EJBI, ] OOE1: fell to EJBI
@@ -3395,7 +3395,7 @@ OO1812: cant detect
 [ III, ] P4FER: fell to III
 [ PARKS, ] P4RKS: fell to PARKS
 [ P4XJA, ] P4XJA: success
-[ PS,  CL, ] P5: fell to PS
+[ PS,  CL, ] P5: partial success (1)
 [ PSISH, ] P5ASH: fell to PSISH
 [ P5KAN, ] P5KAN: success
 [ PBIAI, ] P6WAT: fell to PBIAI
@@ -3478,7 +3478,7 @@ PAT10: cant detect
 [ P742, ] PJ142: fell to P742
 [ IIKI, ] PJ7361: fell to IIKI
 [ AVX,  1LI,  7II,  IVC, ] PJH832: fell to AVX
-[ PLS, ] PL5: fell to PLS
+[ PLS, ] PL5: partial success (1)
 [ 0I9I0, ] PLA573R: fell to 0I9I0
 [ JMI, ] PLL10L: fell to JMI
 [ T1T, ] PLQ: fell to T1T
@@ -3491,15 +3491,15 @@ PAT10: cant detect
 [ 7KP,  VFZ, ] PN5656: fell to 7KP
 [ 1I7,  AVY, ] PNA11: fell to 1I7
 [ NMA4, ] PO: fell to NMA4
-[ POO4J0B, ] PO04JOB: fell to POO4J0B
-[ P0O5JOB, ] PO05JOB: fell to P0O5JOB
+[ POO4J0B, ] PO04JOB: partial success (2)
+[ P0O5JOB, ] PO05JOB: partial success (2)
 [ P003J0B,  P008J0B, ] PO06JOB: fell to P003J0B
 [ P8SIBLY, ] PO51BLY: fell to P8SIBLY
 [ IPBSI0UY, ] PO51GUY: fell to IPBSI0UY
 [ IIII9,  IIIII, ] PO55HER: fell to IIII9
 [ JT4, ] PO55SSH: fell to JT4
 [ JIJILI, ] POB222M: fell to JIJILI
-[ P0L4R,  0LA5E, ] POL4R: fell to P0L4R
+[ P0L4R,  0LA5E, ] POL4R: partial success (1)
 [ 1DTUU, ] POM059: fell to 1DTUU
 [ VA, ] POM123: fell to VA
 [ P0P00, ] POP100: fell to P0P00
@@ -3508,7 +3508,7 @@ PAT10: cant detect
 [ P0PB0Y, ] POP80Y: fell to P0PB0Y
 [ II7, ] POR10: fell to II7
 [ P0R569, ] POR565: fell to P0R569
-[ P0RS6H, ] POR56H: fell to P0RS6H
+[ P0RS6H, ] POR56H: partial success (2)
 [ P0I1S, ] POT7S: fell to P0I1S
 [ P0I8, ] POT8: fell to P0I8
 [ P0TAX, ] POTAXI: fell to P0TAX
@@ -3835,7 +3835,7 @@ S3: cant detect
 [ S56XX, ] S5EXX: fell to S56XX
 [ I0RI, ] S5PKY: fell to I0RI
 [ X4, ] S5RGT: fell to X4
-[ SSSJH, ] S5SJH: fell to SSSJH
+[ SSSJH, ] S5SJH: partial success (1)
 [ 3S99FAB, ] S66FAB: fell to 3S99FAB
 [ S6B6AL, ] S66GAL: fell to S6B6AL
 [ IBSBTHL, ] S6THL: fell to IBSBTHL
@@ -3908,7 +3908,7 @@ SCY1: cant detect
 [ 5H6, ] SHA61N: fell to 5H6
 [ SHES, ] SHE11S: fell to SHES
 [ I1V, ] SHE18Y: fell to I1V
-[ 5HH28, ] SHH28: fell to 5HH28
+[ 5HH28, ] SHH28: partial success (1)
 [ SHJ789, ] SHJ798: fell to SHJ789
 [ SHJ96, ] SHJ916: fell to SHJ96
 [ SN767, ] SHR767: fell to SN767
@@ -3944,7 +3944,7 @@ SJG172: cant detect
 [ SL000, ] SL1000: fell to SL000
 [ IL,  JJ, ] SL9801: fell to IL
 [ SLAM066, ] SLAMG55: fell to SLAM066
-[ SL04N, ] SLO4N: fell to SL04N
+[ SL04N, ] SLO4N: partial success (1)
 [ SHA, ] SM7: fell to SHA
 [ II7KI7I, ] SMC1: fell to II7KI7I
 [ 7I111BRB1A, ] SMX1: fell to 7I111BRB1A
@@ -3962,9 +3962,9 @@ SJG172: cant detect
 [ LIMNL, ] SO5852: fell to LIMNL
 [ LKD,  111,  111, ] SOB413: fell to LKD
 [ S0LI,  RAI0,  UHEI, ] SOL10Y: fell to S0LI
-[ S0L894, ] SOL894: fell to S0L894
+[ S0L894, ] SOL894: partial success (1)
 [ ITIZ, ] SOO500: fell to ITIZ
-[ S0W4, ] SOW4: fell to S0W4
+[ S0W4, ] SOW4: partial success (1)
 [ IOI,  J4I,  INI, ] SOW602: fell to IOI
 [ SP0L, ] SP01L: fell to SP0L
 [ SP0II, ] SP03RTY: fell to SP0II
@@ -4053,7 +4053,7 @@ STANG67: cant detect
 [ I4567, ] T4567: fell to I4567
 [ IIJR, ] T4JND: fell to IIJR
 [ I4GB, ] T4LGD: fell to I4GB
-[ T4PG0, ] T4PGO: fell to T4PG0
+[ T4PG0, ] T4PGO: partial success (1)
 [ TZIII7, ] T4RRA: fell to TZIII7
 [ 2T6, ] T4XOO: fell to 2T6
 [ 4SO0LEA, ] T500LEA: fell to 4SO0LEA
@@ -4061,7 +4061,7 @@ STANG67: cant detect
 [ IS0SPC, ] T50SPC: fell to IS0SPC
 [ IIII0I, ] T54AGT: fell to IIII0I
 [ ISIIIIP, ] T555KSP: fell to ISIIIIP
-[ T5F0R, ] T5FOR: fell to T5F0R
+[ T5F0R, ] T5FOR: partial success (1)
 [ I666SLB, ] T666SLB: fell to I666SLB
 [ 6SH, ] T6SMM: fell to 6SH
 [ T77APK, ] T77APK: success
@@ -4135,7 +4135,7 @@ T8STY: cant detect
 [ UILL, ] TOM1: fell to UILL
 [ S8S, ] TOM198S: fell to S8S
 [ LI2, ] TOM1E: fell to LI2
-[ T0M2, ] TOM2: fell to T0M2
+[ T0M2, ] TOM2: partial success (1)
 [ I0R309I, ] TOM309Y: fell to I0R309I
 [ ID,  IF, ] TOM66MRS66: fell to ID
 [ VT, ] TOM7: fell to VT
@@ -4153,8 +4153,8 @@ T8STY: cant detect
 [ T0P0UNP,  TOP0UNP, ] TOPGUN-WP: fell to T0P0UNP
 [ IOIII, ] TOT7Y: fell to IOIII
 [ VLV,  LAJ, ] TOY1: fell to VLV
-[ T0Y479, ] TOY479: fell to T0Y479
-[ T0YS, ] TOY5: fell to T0YS
+[ T0Y479, ] TOY479: partial success (1)
+[ T0YS, ] TOY5: partial success (2)
 [ II727, ] TOY777: fell to II727
 [ IR0IC0I, ] TR05COT: fell to IR0IC0I
 [ TP0774R,  IH0774R, ] TR0774R: fell to TP0774R
@@ -4255,7 +4255,7 @@ UTT1: cant detect
 [ V8,  DV, ] V12: fell to V8
 [ 4I5PY, ] V121SPY: fell to 4I5PY
 [ V2B0I, ] V12BOB: fell to V2B0I
-[ V1200H, ] V12OOH: fell to V1200H
+[ V1200H, ] V12OOH: partial success (2)
 [ V2T0B, ] V12TOD: fell to V2T0B
 [ V40RA,  N4G9I, ] V14GRA: fell to V40RA
 [ VBLM,  V0LH, ] V1GLM: fell to VBLM
@@ -4268,8 +4268,8 @@ UTT1: cant detect
 [ 5FW,  W4W,  IJI,  4IA,  17Z,  1NI,  7II,  LIT,  VRJ,  KUZ, ] V2FEW: fell to 5FW
 [ V8JKL, ] V2JWL: fell to V8JKL
 [ I7I,  0VJ, ] V33TRV: fell to I7I
-[ V3LV0, ] V3LVO: fell to V3LV0
-[ V40YN0, ] V40YNO: fell to V40YN0
+[ V3LV0, ] V3LVO: partial success (1)
+[ V40YN0, ] V40YNO: partial success (1)
 [ 450I, ] V45DEV: fell to 450I
 [ IIIIC, ] V555MOG: fell to IIIIC
 [ II, ] V6: fell to II
@@ -4336,7 +4336,7 @@ VD2: cant detect
 VSP1: cant detect
 [ V9P2, ] VSP2: fell to V9P2
 [ II3, ] VT3: fell to II3
-[ VTK2S, ] VTK25: fell to VTK2S
+[ VTK2S, ] VTK25: partial success (1)
 [ HTY, ] VU1: fell to HTY
 [ VW09KAY, ] VW09KAY: success
 [ CHM, ] VWF450: fell to CHM
@@ -4459,7 +4459,7 @@ WYN11: cant detect
 [ IIEIK, ] X1EAK: fell to IIEIK
 [ XH0B,  VNWF, ] X1HGB: fell to XH0B
 [ XKP, ] X1KNP: fell to XKP
-[ XISLT, ] X1SLT: fell to XISLT
+[ XISLT, ] X1SLT: partial success (1)
 [ IX23BEX, ] X23BEX: fell to IX23BEX
 [ IIII01, ] X24BOX: fell to IIII01
 [ X85JA0, ] X25JAG: fell to X85JA0
@@ -4473,7 +4473,7 @@ X4: cant detect
 X4KYX: cant detect
 [ LIBZ, ] X4TRC: fell to LIBZ
 [ IS3YI, ] X5JYM: fell to IS3YI
-[ XSYEP, ] X5YEP: fell to XSYEP
+[ XSYEP, ] X5YEP: partial success (1)
 [ XG0LDX, ] X60LDX: fell to XG0LDX
 [ X80NAB, ] X60NAD: fell to X80NAB
 [ ICHI, ] X6CHS: fell to ICHI
@@ -4514,7 +4514,7 @@ X4KYX: cant detect
 [ Y20IL, ] Y2CTL: fell to Y20IL
 [ Y3SVF, ] Y3SVF: success
 [ VVK, ] Y5: fell to VVK
-[ YSAVE, ] Y5AVE: fell to YSAVE
+[ YSAVE, ] Y5AVE: partial success (1)
 [ I1I,  41P, ] Y5GO3GP: fell to I1I
 [ 4L,  II,  IJ,  X4,  2I, ] Y66: fell to 4L
 [ I1,  AA,  I4, ] Y69: fell to I1
@@ -4564,6 +4564,6 @@ YBL1: cant detect
 [ NTT, ] ZMF: fell to NTT
 
 
-Number of Success: 192
-Number of Failure: 4372
- % Success: 0.0420684
+Number of Success: 266
+Number of Failure: 4298
+ % Success: 0.0582822

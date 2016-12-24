@@ -76,7 +76,7 @@ int main(void) {
 					fout <<" " <<fairest[j].strChars << ", ";
 				}
 				fout << "] ";
-				int compare_result = compareString(new_name, licPlate.strChars);
+				int compare_result = compareString(toLower(new_name), toLower(licPlate.strChars));
 				switch (compare_result) {
 				case -1:
 					fout << new_name << ": fell to " << licPlate.strChars << endl;

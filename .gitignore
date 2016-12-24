@@ -27,3 +27,9 @@
 *.exe
 *.out
 *.app
+
+*db
+OPENCV_FINAL/.vs
+OPENCV_FINAL/Debug
+OPENCV_FINAL/packages
+OPENCV_FINAL/x64

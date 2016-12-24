@@ -62,7 +62,7 @@ int main(void) {
 			}
 			//cv::imshow("imgPlate", licPlate.imgPlate);            // show crop of plate and threshold of plate
 			//cv::imshow("imgThresh", licPlate.imgThresh);
-
+			
 			if (licPlate.strChars.length() == 0) {                                                      // if no chars were found in the plate
 				std::cout << std::endl << "no characters were detected" << std::endl << std::endl;      // show message
 				//return(0);                                                                              // and exit program
@@ -71,6 +71,11 @@ int main(void) {
 				++nFail;
 			}
 			else {
+				fout << '[';
+				for (int j = 0; j < fairest.size(); ++j) {
+					fout <<" " <<fairest[j].strChars << ", ";
+				}
+				fout << "] ";
 				int compare_result = compareString(new_name, licPlate.strChars);
 				switch (compare_result) {
 				case -1:

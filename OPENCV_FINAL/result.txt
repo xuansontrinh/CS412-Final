@@ -158,7 +158,9 @@
 [ 7II,  BIC,  IT5, ] 1BAG: fell to 7II
 [ ICI,  AIX,  KXX, ] 1BCN: fell to ICI
 [ BE, ] 1BE: fell to BE
+License plate not found in 1BH.JPG
 [ IIII, ] 1BLK: fell to IIII
+License plate not found in 1BLS.JPG
 [ 1J5, ] 1BO: fell to 1J5
 [ C1Q, ] 1BOB: fell to C1Q
 [ 7YI,  YHK, ] 1BOT: fell to 7YI
@@ -214,6 +216,7 @@
 [ II, ] 1HJY: fell to II
 [ HMA, ] 1HMA: fell to HMA
 [ DFI0C0, ] 1HN: fell to DFI0C0
+License plate not found in 1HOP.JPG
 [ JI, ] 1HP: fell to JI
 [ L00899, ] 1HPE: fell to L00899
 [ HPP, ] 1HPR: fell to HPP
@@ -249,6 +252,7 @@
 [ LAL, ] 1LAL: fell to LAL
 [ LAW, ] 1LAW: fell to LAW
 [ LCH, ] 1LCH: fell to LCH
+License plate not found in 1LCP.JPG
 [ LT, ] 1LIT: fell to LT
 [ XHUKD, ] 1LLOYD: fell to XHUKD
 [ LNP, ] 1LPN: fell to LNP
@@ -274,6 +278,7 @@
 [ I5, ] 1NOH: fell to I5
 [ IIII, ] 1NP: fell to IIII
 [ NI, ] 1NW: fell to NI
+License plate not found in 1O.JPG
 [ LUH, ] 1OR: fell to LUH
 [ 0UI, ] 1OU: fell to 0UI
 [ 0L,  CU, ] 1OVE: fell to 0L
@@ -343,6 +348,7 @@
 [ IPL, ] 1WPL: fell to IPL
 [ II, ] 1XBX: fell to II
 [ LI,  II, ] 1XFU: fell to LI
+License plate not found in 1XJR.JPG
 [ 47A7, ] 1XU: fell to 47A7
 [ 7Z2Z7Z7Z, ] 1Y: fell to 7Z2Z7Z7Z
 [ YEP, ] 1YEP: fell to YEP
@@ -372,6 +378,7 @@
 [ 2K1H, ] 21KTM: fell to 2K1H
 [ IIE, ] 21ME: fell to IIE
 [ 2P,  II, ] 21P: fell to 2P
+License plate not found in 21U.JPG
 [ 22AGL, ] 22AGL: success
 [ 222ICC, ] 222AGG: fell to 222ICC
 [ IL, ] 222CDM: fell to IL
@@ -410,6 +417,7 @@
 [ 26K0X, ] 25KOX: fell to 26K0X
 [ 95LDH, ] 25LOW: fell to 95LDH
 [ 269IB,  P69PD, ] 269ED: fell to 269IB
+License plate not found in 26H.JPG
 [ 2887,  IIIV, ] 26KY: fell to 2887
 [ Q2J37BE, ] 2737BB: fell to Q2J37BE
 [ LUI,  IIN, ] 2739NA: fell to LUI
@@ -459,6 +467,7 @@
 [ 2SL0, ] 2SLO: partial success (1)
 [ IIII, ] 2STA: fell to IIII
 [ 74KJ,  2TAP, ] 2TAP: fell to 74KJ
+License plate not found in 2WDT.JPG
 [ 6, ] 2XR: fell to 6
 [ 2YB, ] 2YD: fell to 2YB
 [ 7I, ] 3000DD: fell to 7I
@@ -478,6 +487,7 @@
 [ JIXC, ] 31YC: fell to JIXC
 [ 4FII,  IIII, ] 324FAM: fell to 4FII
 [ I3IIIRJI, ] 328AFJ: fell to I3IIIRJI
+License plate not found in 328TF.JPG
 [ VI,  II,  7N, ] 32B: fell to VI
 [ 32PK, ] 32PK: success
 [ 3J0C0M,  330C0M, ] 330CDM: fell to 3J0C0M
@@ -514,6 +524,7 @@
 [ 381S, ] 38TS: fell to 381S
 [ XJ8,  IID,  0F1,  FJV, ] 38V: fell to XJ8
 [ IIIIIIIII,  IIIIIIIII, ] 3942JW: fell to IIIIIIIII
+License plate not found in 394R.JPG
 [ 0C00,  IJY7, ] 3COO: fell to 0C00
 [ 3BH8,  DDDD,  DDDD, ] 3DHG: fell to 3BH8
 [ 3E0E, ] 3EDE: fell to 3E0E
@@ -609,6 +620,7 @@
 [ 46IF, ] 4GTE: fell to 46IF
 [ ICXI,  III7, ] 4HRH: fell to ICXI
 [ 4HTC, ] 4HTC: success
+License plate not found in 4K.JPG
 [ 1IW, ] 4KEYS: fell to 1IW
 [ O40, ] 4LIFE: fell to O40
 [ III, ] 4MBE: fell to III
@@ -616,6 +628,7 @@
 [ IA,  IJ,  II,  GL, ] 4PH: fell to IA
 [ 4R, ] 4R: success
 [ AI1,  7E9, ] 4RJR: fell to AI1
+License plate not found in 4RRR.JPG
 [ 3IIT1, ] 4RT: fell to 3IIT1
 [ 4PV, ] 4RV: fell to 4PV
 [ ISIE, ] 4SEE: fell to ISIE
@@ -632,6 +645,7 @@
 [ 7FIH, ] 50DRL: fell to 7FIH
 [ S0FA, ] 50FA: partial success (1)
 [ 50PAT, ] 50PAT: success
+License plate not found in 50PE.JPG
 [ II, ] 50UP: fell to II
 [ IIR, ] 511R: fell to IIR
 [ ILII, ] 5153VU: fell to ILII
@@ -653,6 +667,7 @@
 [ IDJNL,  72PLT, ] 540JML: fell to IDJNL
 [ X, ] 5435PJ: fell to X
 [ I77, ] 5481DH: fell to I77
+License plate not found in 54DNO.JPG
 [ I0B, ] 54RON: fell to I0B
 [ S4TAF, ] 54TAF: partial success (1)
 [ YD,  YI,  I1,  II,  I1, ] 550FRR: fell to YD
@@ -705,6 +720,7 @@
 [ 56EI, ] 5GEE: fell to 56EI
 [ 5GPC, ] 5GPG: fell to 5GPC
 [ S0SR,  6GSR, ] 5GSR: fell to S0SR
+License plate not found in 5IN.JPG
 [ 5J0A, ] 5JGA: fell to 5J0A
 [ SJH0, ] 5JHG: fell to SJH0
 [ SXE0, ] 5KEO: fell to SXE0
@@ -836,6 +852,7 @@
 [ IIIIII, ] 75KJ: fell to IIIIII
 [ 7B0MW, ] 760MW: fell to 7B0MW
 [ 76IXNG, ] 765KMG: fell to 76IXNG
+License plate not found in 76JL.JPG
 [ 77IVIL, ] 774VAL: fell to 77IVIL
 [ 776BTI, ] 7766TW: fell to 776BTI
 [ 7777NP, ] 7777MP: fell to 7777NP
@@ -876,6 +893,7 @@
 [ LJC1,  7AVW, ] 804BYE: fell to LJC1
 [ 7JI, ] 805BYE: fell to 7JI
 [ B05L0, ] 805LG: fell to B05L0
+License plate not found in 805PPR.JPG
 [ 807PP, ] 807PP: success
 [ PJFI7J, ] 808SAJ: fell to PJFI7J
 [ XTX, ] 80BO: fell to XTX
@@ -954,6 +972,7 @@
 [ 9SAM, ] 911SAM: fell to 9SAM
 [ 820P0,  920P8, ] 912GPG: fell to 820P0
 [ 976PX, ] 9176PX: fell to 976PX
+License plate not found in 91GP.JPG
 [ 9I0FPI, ] 920FRT: fell to 9I0FPI
 [ 1I,  JI, ] 929HCR: fell to 1I
 [ 92P0T,  92H0T, ] 92HOT: fell to 92P0T
@@ -981,6 +1000,7 @@
 [ 999DJX, ] 999DJX: success
 [ I99LNX,  999LNX, ] 999LNX: fell to I99LNX
 [ 999NEH, ] 999NEH: success
+License plate not found in 99AHJ.JPG
 [ 89IHI, ] 99ART: fell to 89IHI
 [ 99DWN, ] 99DWN: success
 [ IKL1, ] 99JAM: fell to IKL1
@@ -1001,6 +1021,7 @@
 [ SY, ] 9Y: fell to SY
 [ 1UJ7FX, ] A007FAN: fell to 1UJ7FX
 [ I461V, ] A1: fell to I461V
+License plate not found in A10AWJ.JPG
 [ ADT0F, ] A10TOF: fell to ADT0F
 [ IIIF1E, ] A110WME: fell to IIIF1E
 [ IPI,  7J7, ] A111: fell to IPI
@@ -1096,11 +1117,13 @@ A5SU: cant detect
 [ I8XIR, ] A8XAM: fell to I8XIR
 [ H, ] A911: fell to H
 [ I99JPSI, ] A939RSR: fell to I99JPSI
+License plate not found in A9BYE.JPG
 [ IIC, ] A9CMM: fell to IIC
 [ A9DDB, ] A9DOG: fell to A9DDB
 [ I9ENT, ] A9ENT: fell to I9ENT
 [ I7, ] AA1: fell to I7
 [ III, ] AA10: fell to III
+License plate not found in AA14.JPG
 [ KAAL, ] AA16: fell to KAAL
 [ IXI1, ] AA161: fell to IXI1
 [ 7JLT, ] AA17: fell to 7JLT
@@ -1150,6 +1173,7 @@ AF1: cant detect
 [ FYXY, ] AH5240: fell to FYXY
 [ XJ4, ] AH5389: fell to XJ4
 [ F25,  GCC, ] AHF25: fell to F25
+License plate not found in AHF30.JPG
 [ IIIIIII, ] AHJ5: fell to IIIIIII
 [ IB31SEY, ] AHO2SEY: fell to IB31SEY
 [ UTJ2,  HQ7C, ] AHR257: fell to UTJ2
@@ -1194,6 +1218,7 @@ AMOUR: cant detect
 [ XXXT, ] ANG11S: fell to XXXT
 [ I14, ] ANL34: fell to I14
 [ INN, ] ANM1C: fell to INN
+License plate not found in ANM59H.JPG
 [ CV78, ] ANN11: fell to CV78
 [ IIIII, ] ANN26: fell to IIIII
 [ IRQ, ] AO2: fell to IRQ
@@ -1281,6 +1306,7 @@ B15: cant detect
 [ 8BMI, ] B18BMW: fell to 8BMI
 [ B9IAI,  IIIIP, ] B18TAX: fell to B9IAI
 [ 575,  XXI, ] B19BNS: fell to 575
+License plate not found in B19DEK-2.JPG
 [ 3BLA, ] B19DEK: fell to 3BLA
 [ 89FU, ] B19FUS: fell to 89FU
 [ B30SS,  B90SS, ] B19OSS: fell to B30SS
@@ -1302,6 +1328,7 @@ B15: cant detect
 [ BXRL, ] B1WRD: fell to BXRL
 [ 7I,  II,  7Z,  B0,  II,  LI,  DI, ] B2: fell to 7I
 [ B20LUV,  B20LUV, ] B20LUV: success
+License plate not found in B24.JPG
 [ IIQSB, ] B2GSG: fell to IIQSB
 [ IIPII, ] B2PMK: fell to IIPII
 [ 83IIIL, ] B33FYS: fell to 83IIIL
@@ -1330,12 +1357,14 @@ B15: cant detect
 [ UUU, ] B8: fell to UUU
 [ I7I, ] B8458: fell to I7I
 [ III, ] B88: fell to III
+License plate not found in B9MDM.JPG
 [ BASTAHB, ] BA53ARD: fell to BASTAHB
 [ BAC, ] BAC1: fell to BAC
 [ 8I9, ] BAD1: fell to 8I9
 [ 8I8IY, ] BAD11Y: fell to 8I8IY
 [ YYI, ] BAD49KBAN335G: fell to YYI
 [ NE7, ] BAD4M: fell to NE7
+License plate not found in BAH1.JPG
 [ II9C, ] BAR1E: fell to II9C
 [ DI, ] BARRY: fell to DI
 [ E4I1, ] BAT114N: fell to E4I1
@@ -1352,6 +1381,7 @@ B15: cant detect
 [ B04, ] BC14: fell to B04
 [ I3I4, ] BC21: fell to I3I4
 [ UI,  74, ] BCV1: fell to UI
+License plate not found in BDS1.JPG
 [ BES76E0, ] BE57GEO: fell to BES76E0
 [ 51,  LI, ] BEA11Y: fell to 51
 [ LDDU, ] BEATNIIK: fell to LDDU
@@ -1420,6 +1450,7 @@ B15: cant detect
 [ JL4, ] BOY200: fell to JL4
 [ VANHIE, ] BOY300: fell to VANHIE
 [ IIIIII,  IIIIII, ] BP962: fell to IIIIII
+License plate not found in BPJ956.JPG
 [ 9HL4,  1QAI,  VX99, ] BPM1: fell to 9HL4
 [ P08AN, ] BR06ANT: fell to P08AN
 [ FI, ] BR51VOR: fell to FI
@@ -1442,6 +1473,7 @@ BRAINY: cant detect
 [ 9498,  9498,  9498, ] BS9498: fell to 9498
 [ XI,  BV, ] BS9694: fell to XI
 [ 4GVA,  LOC7, ] BS999: fell to 4GVA
+License plate not found in BSC66.JPG
 [ HC,  LG,  NL, ] BSK142: fell to HC
 BT6430: cant detect
 [ II,  1I, ] BTA7T4: fell to II
@@ -1461,6 +1493,7 @@ BT6430: cant detect
 [ IUX7N, ] BUX7N: fell to IUX7N
 [ IIJ,  AZI, ] BVX51: fell to IIJ
 BW1: cant detect
+License plate not found in BW5.JPG
 [ ZVX,  I77, ] BW719: fell to ZVX
 [ IIIV,  JUKE, ] BWA360: fell to IIIV
 [ 1Z,  1J,  IT, ] BWC199: fell to 1Z
@@ -1561,6 +1594,7 @@ CBC44: cant detect
 [ CD,  II, ] CH11: fell to CD
 [ IIII, ] CH2: fell to IIII
 [ III,  IYI, ] CH71: fell to III
+License plate not found in CH999.JPG
 [ LCHANTS5, ] CHANTS: fell to LCHANTS5
 [ IHEM,  XL61,  7J7N, ] CHE215H: fell to IHEM
 [ CHPS, ] CHR1S1: fell to CHPS
@@ -1591,6 +1625,7 @@ CLFCOLLECTION: cant detect
 [ 1X,  ZA,  3L, ] COLLEGE: fell to 1X
 [ LK,  7X, ] COM1C: fell to LK
 [ C0D3, ] COO3: fell to C0D3
+License plate not found in COOL1-ZN.JPG
 [ 4I,  ZI,  J4,  7Z, ] COR331: fell to 4I
 [ 0520,  0S20, ] COS20: fell to 0520
 [ JIXJ7, ] COT1S: fell to JIXJ7
@@ -1612,6 +1647,7 @@ CRE114: cant detect
 [ A7T, ] CSK474: fell to A7T
 [ CSV277, ] CSV277: success
 [ I4I, ] CT404: fell to I4I
+License plate not found in CT606.JPG
 [ LO, ] CTF3: fell to LO
 [ IU,  97, ] CTL17: fell to IU
 [ CUE80Y, ] CUE80Y: success
@@ -1676,6 +1712,7 @@ DA1921: cant detect
 [ IIH, ] DAN1: fell to IIH
 [ 0AH53H, ] DAN531H: fell to 0AH53H
 [ 0IN63V, ] DAN63V: fell to 0IN63V
+License plate not found in DAT300.JPG
 [ 0IU70, ] DAU7D: fell to 0IU70
 [ DI70, ] DAV10: fell to DI70
 [ DHVDB, ] DAV105: fell to DHVDB
@@ -1712,15 +1749,18 @@ DA1921: cant detect
 [ DFL8J7, ] DEL30Y: fell to DFL8J7
 [ XII, ] DEN715T: fell to XII
 [ NTF, ] DENNY: fell to NTF
+License plate not found in DER1ME.JPG
 [ 1III, ] DES3: fell to 1III
 [ 0EI83VA, ] DES63V: fell to 0EI83VA
 [ S4, ] DEW5V: fell to S4
 [ 0EH5Y, ] DEW5Y: fell to 0EH5Y
 [ DEX0N, ] DEX1ON: fell to DEX0N
 [ I1LII, ] DF450: fell to I1LII
+License plate not found in DF4841.JPG
 [ 0FSJS, ] DF535: fell to 0FSJS
 [ 77I,  JBJ, ] DFC772: fell to 77I
 [ 7Q,  47, ] DFH91B: fell to 7Q
+License plate not found in DFT62.JPG
 [ DFIB, ] DFT8: fell to DFIB
 [ DJ5, ] DG: fell to DJ5
 [ L1LRX, ] DG06TOW: fell to L1LRX
@@ -1776,6 +1816,7 @@ DG7: cant detect
 [ ID065H0V, ] DO65HOW: fell to ID065H0V
 [ K7,  57, ] DOB81N: fell to K7
 [ IKIMH, ] DOC1: fell to IKIMH
+License plate not found in DPH6.JPG
 [ BP,  7I, ] DR1: fell to BP
 [ 0P2,  XYX, ] DR2: fell to 0P2
 [ DRIN, ] DRA1N: fell to DRIN
@@ -1856,6 +1897,7 @@ EDF1: cant detect
 [ IIZ,  V1X, ] EDZ1: fell to IIZ
 [ EE8,  JJ7, ] EE8: success
 [ EEL5, ] EEL5: success
+License plate not found in EFL1.JPG
 [ 1C, ] EFL2: fell to 1C
 [ IFL3, ] EFL3: fell to IFL3
 [ EFM2S, ] EFM25: partial success (1)
@@ -1991,6 +2033,7 @@ ELA583: cant detect
 [ VYAJ, ] FAT1: fell to VYAJ
 [ III, ] FAT11: fell to III
 [ PATGT, ] FAT61T: fell to PATGT
+License plate not found in FAVOUR.JPG
 [ FB, ] FB1: fell to FB
 [ 7Z,  7J,  Z1,  II, ] FB1925: fell to 7Z
 [ FBSS, ] FB55: partial success (2)
@@ -2032,6 +2075,7 @@ FH26: cant detect
 [ FN6S, ] FM65: fell to FN6S
 [ 2II,  I9I, ] FMG966B: fell to 2II
 [ II3IB4, ] FMT804: fell to II3IB4
+License plate not found in FO1.JPG
 [ DLH, ] FOE524: fell to DLH
 [ F0R83S, ] FOR83S: partial success (1)
 [ AL,  XA,  MJ,  UK, ] FORD: fell to AL
@@ -2044,6 +2088,7 @@ FH26: cant detect
 [ FP,  II,  I7,  4J,  71, ] FR1: fell to FP
 [ 2III, ] FR51JOE: fell to 2III
 FRA1: cant detect
+License plate not found in FRS1.JPG
 [ II, ] FRU1T: fell to II
 [ JI4,  XUX, ] FRY73V: fell to JI4
 [ FI, ] FS1: fell to FI
@@ -2064,6 +2109,7 @@ FU2: cant detect
 [ FI2,  R33, ] FW2: fell to FI2
 [ KKT, ] FW4968: fell to KKT
 [ I7X, ] FWD768: fell to I7X
+License plate not found in FXY6.JPG
 [ 17, ] FZ2377: fell to 17
 [ G0FFY, ] G0FFY: success
 [ G0BBY, ] G10BBY: fell to G0BBY
@@ -2207,6 +2253,7 @@ GPB2: cant detect
 GTOOO: cant detect
 [ X42, ] GTV152D: fell to X42
 [ 0UB, ] GUB1: fell to 0UB
+License plate not found in GURLZ.JPG
 [ L1I, ] GVS212: fell to L1I
 [ IIIII1I, ] GVS334: fell to IIIII1I
 [ UAT, ] GVS613: fell to UAT
@@ -2239,6 +2286,7 @@ GTOOO: cant detect
 [ HBUS, ] H1BUS: fell to HBUS
 [ H0FI, ] H1DFW: fell to H0FI
 [ HFRY, ] H1FRY: fell to HFRY
+License plate not found in H1FSO.JPG
 [ 8CFC, ] H1GPG: fell to 8CFC
 [ HJET,  HJET, ] H1JET: fell to HJET
 [ III, ] H1JWN: fell to III
@@ -2248,6 +2296,7 @@ GTOOO: cant detect
 [ HPHI, ] H1PMW: fell to HPHI
 [ HPPS, ] H1PPS: fell to HPPS
 [ A1,  II,  7J,  DL,  AI, ] H1PTP: fell to A1
+License plate not found in H1SMT.JPG
 [ HTA0, ] H1TAG: fell to HTA0
 [ HIBN, ] H1TBH: fell to HIBN
 [ NIU1TP, ] H1ULK: fell to NIU1TP
@@ -2293,6 +2342,7 @@ H6YESRAFSHAWBURY: cant detect
 H8BYY: cant detect
 [ 777,  8DP, ] H8DMP: fell to 777
 H8SEU: cant detect
+License plate not found in H9GDM.JPG
 [ HAEXX, ] HA11EXX280211: fell to HAEXX
 [ INI,  IIZ, ] HAA1: fell to INI
 HAN50M: cant detect
@@ -2310,6 +2360,7 @@ HCY700D: cant detect
 [ Z7Y,  III,  LJI,  NYJ, ] HE7980: fell to Z7Y
 [ HEAJ0N, ] HEA70N: fell to HEAJ0N
 [ JV, ] HEC126: fell to JV
+License plate not found in HEINO.JPG
 [ HFP50N, ] HEW50M: fell to HFP50N
 [ HCI5ON, ] HEW50N: fell to HCI5ON
 [ 7IA, ] HF61: fell to 7IA
@@ -2325,6 +2376,7 @@ HL1: cant detect
 [ XIT,  XIT, ] HL1908: fell to XIT
 [ HLU,  ALV, ] HLU1: fell to HLU
 [ HL,  IL,  JL, ] HLZ4759: fell to HL
+License plate not found in HMC1.JPG
 [ HHX, ] HMK: fell to HHX
 [ HMPWL, ] HMR1W: fell to HMPWL
 [ HHSI, ] HMS4: fell to HHSI
@@ -2440,6 +2492,7 @@ J22JFE: cant detect
 [ J8ELL, ] J8ELL: success
 [ JBNET, ] J8NET: fell to JBNET
 [ XX, ] J9: fell to XX
+License plate not found in J90AYR.JPG
 [ J999NSX, ] J999NSX: success
 [ JA,  XX, ] JA1: fell to JA
 [ IIIIIII, ] JA11: fell to IIIIIII
@@ -2453,6 +2506,7 @@ J22JFE: cant detect
 JAG10: cant detect
 [ 1DIHI, ] JAG150: fell to 1DIHI
 [ JA02SY, ] JAG25Y: fell to JA02SY
+License plate not found in JAG333.JPG
 [ JAMJS, ] JAM3S: fell to JAMJS
 [ II,  II, ] JAN006: fell to II
 [ JIN3R, ] JAN3R: fell to JIN3R
@@ -2489,6 +2543,7 @@ JAG10: cant detect
 [ 3BA, ] JD1: fell to 3BA
 [ JOJ20, ] JDJ20: fell to JOJ20
 [ JDV3Q0I, ] JDV300: fell to JDV3Q0I
+License plate not found in JE187.JPG
 [ 5IIII1, ] JE51TER: fell to 5IIII1
 [ 1Z2L, ] JE9611: fell to 1Z2L
 [ JEAS, ] JEA1S: fell to JEAS
@@ -2497,6 +2552,7 @@ JAG10: cant detect
 [ JE7, ] JEE718: fell to JE7
 JEF96: cant detect
 [ ZUU2, ] JEL516: fell to ZUU2
+License plate not found in JES34.JPG
 [ QVQ, ] JET1: fell to QVQ
 JET8: cant detect
 [ JEYS, ] JEY5: partial success (1)
@@ -2509,6 +2565,7 @@ JET8: cant detect
 [ JH,  CT,  X7,  X3,  UJ,  YU, ] JH1: fell to JH
 [ V8I0, ] JH160: fell to V8I0
 JH73: cant detect
+License plate not found in JH9.JPG
 [ IIII, ] JHA11: fell to IIII
 [ JHC, ] JHC11: fell to JHC
 [ ITM, ] JHC111A: fell to ITM
@@ -2522,6 +2579,7 @@ JH73: cant detect
 [ JJ, ] JIB338: fell to JJ
 [ KKJL, ] JIB3388: fell to KKJL
 [ I5, ] JIJ25: fell to I5
+License plate not found in JIM111.JPG
 [ II82S, ] JIW835: fell to II82S
 [ JJD2DAN, ] JJ02DAN: fell to JJD2DAN
 [ I1, ] JJ1: fell to I1
@@ -2565,6 +2623,7 @@ JH73: cant detect
 [ Z, ] JPE200: fell to Z
 [ A4J, ] JPF543: fell to A4J
 [ JPN, ] JPN1D: fell to JPN
+License plate not found in JR111.JPG
 [ I1I,  13X, ] JR2: fell to I1I
 [ IIII, ] JR6: fell to IIII
 [ IYIJ, ] JRP4: fell to IYIJ
@@ -2587,6 +2646,7 @@ JH73: cant detect
 [ IAI, ] JT88: fell to IAI
 [ LIN, ] JTL1V: fell to LIN
 [ GJTI36, ] JTW36: fell to GJTI36
+License plate not found in JU4269.JPG
 [ JUI2P0I, ] JU52HOT: fell to JUI2P0I
 [ MUUKF, ] JU6437: fell to MUUKF
 [ TU4,  1IP, ] JUISC)41209: fell to TU4
@@ -2668,6 +2728,7 @@ KAS3: cant detect
 [ JA, ] KEEN: fell to JA
 [ 7Q,  II,  77,  II,  A5,  SA, ] KEK1: fell to 7Q
 [ KEL, ] KEL1: fell to KEL
+License plate not found in KEN11G.JPG
 [ XEN20,  HCN20, ] KEN20: fell to XEN20
 [ KEN200, ] KEN200: success
 [ KEN85, ] KEN851: fell to KEN85
@@ -2691,6 +2752,7 @@ KH3333: cant detect
 [ IHJ88I, ] KHJ888: fell to IHJ88I
 [ DHN, ] KHP712: fell to DHN
 [ I5ILII, ] KI55LET3: fell to I5ILII
+License plate not found in KIMBO.JPG
 [ FJL, ] KIW1: fell to FJL
 [ IJI, ] KJA1: fell to IJI
 [ AX,  74, ] KJK404: fell to AX
@@ -2748,6 +2810,7 @@ KTW3V: cant detect
 [ L300LHR, ] L300LMR: fell to L300LHR
 [ L33BYF, ] L33BYF: success
 [ L39RKN, ] L33RKN: fell to L39RKN
+License plate not found in L3BNJ.JPG
 [ LBCHT, ] L3CHT: fell to LBCHT
 [ 2II, ] L3JJH: fell to 2II
 [ I9CLJ, ] L3UEL: fell to I9CLJ
@@ -2772,6 +2835,7 @@ KTW3V: cant detect
 [ LXE, ] L7KKE: fell to LXE
 [ 1L80RGY, ] L80RGY: fell to 1L80RGY
 [ LCY, ] L86: fell to LCY
+License plate not found in L88JLS.JPG
 [ IRU, ] L8WHU: fell to IRU
 [ L9UD5F, ] L90OSE: fell to L9UD5F
 [ LIFII, ] L999BAH: fell to LIFII
@@ -2797,8 +2861,10 @@ LBG456: cant detect
 [ AAVY,  XIII,  1JWW, ] LC2690: fell to AAVY
 [ HUN, ] LC4421: fell to HUN
 [ NI8JV, ] LCX5: fell to NI8JV
+License plate not found in LD458.JPG
 [ LDN, ] LDN1: fell to LDN
 [ 4TLPS, ] LDS7: fell to 4TLPS
+License plate not found in LE51JEN.JPG
 [ SINEI, ] LE54NER: fell to SINEI
 [ LEF, ] LEE212: fell to LEF
 [ 1JI, ] LEE8: fell to 1JI
@@ -2807,6 +2873,7 @@ LBG456: cant detect
 [ SY7I, ] LEN788: fell to SY7I
 [ HCL, ] LENNIE: fell to HCL
 [ LIR00, ] LER80: fell to LIR00
+License plate not found in LES61X.JPG
 [ LIIS, ] LEW15C280211: fell to LIIS
 [ ILEISN, ] LEW15M280211: fell to ILEISN
 [ LEX5, ] LEX15: fell to LEX5
@@ -2846,9 +2913,11 @@ LIL32: cant detect
 [ 0L, ] LOW1X,-LDW1X: fell to 0L
 [ I7,  7D, ] LP8389: fell to I7
 [ LUU, ] LPM949YYR54H: fell to LUU
+License plate not found in LR0.JPG
 [ IVSII, ] LU51FER: fell to IVSII
 [ HI1,  5I1, ] LU54RDY: fell to HI1
 [ LD, ] LUF1: fell to LD
+License plate not found in LUFC.JPG
 [ I19, ] LUI545: fell to I19
 [ 1PJ1, ] LVC313: fell to 1PJ1
 [ 1G1LLT, ] LVC345: fell to 1G1LLT
@@ -2942,6 +3011,7 @@ M3631: cant detect
 [ HSS0FF, ] M550FF: fell to HSS0FF
 [ N4,  KJ, ] M550GT: fell to N4
 [ NII0I, ] M5GOM: fell to NII0I
+License plate not found in M6.JPG
 [ ZI,  YU,  I5, ] M60YDD: fell to ZI
 [ H66B0IP, ] M666OAP: fell to H66B0IP
 [ 1B686ILI, ] M666XLT: fell to 1B686ILI
@@ -2955,6 +3025,7 @@ M3631: cant detect
 [ H860SM, ] M88GSM: fell to H860SM
 [ III0X, ] M8BOX: fell to III0X
 [ H8HUE, ] M8HUE: fell to H8HUE
+License plate not found in M99.JPG
 [ 9SILP, ] M999CEC: fell to 9SILP
 [ YLI, ] M9HEN: fell to YLI
 [ ISIPH,  IYIYI, ] M9MPH: fell to ISIPH
@@ -3006,6 +3077,7 @@ M3631: cant detect
 [ T1NII, ] ME200: fell to T1NII
 [ PE3, ] ME39: fell to PE3
 [ HE5PUP, ] ME51PUP: fell to HE5PUP
+License plate not found in ME585.JPG
 [ ME8, ] MEB1G: fell to ME8
 [ II, ] MEC18: fell to II
 [ NEGE, ] MEG1E: fell to NEGE
@@ -3098,6 +3170,7 @@ MRG634: cant detect
 [ II, ] MRSFOX: fell to II
 MRT188S: cant detect
 [ AJ,  II,  42,  2K, ] MRU200: fell to AJ
+License plate not found in MRY145.JPG
 MS1: cant detect
 [ A11F, ] MS12: fell to A11F
 [ IILI,  IIPI, ] MS34: fell to IILI
@@ -3110,6 +3183,7 @@ MT68: cant detect
 [ DLIX, ] MT906: fell to DLIX
 [ HI0, ] MTG1: fell to HI0
 [ MU5CP4D, ] MU51CPA: fell to MU5CP4D
+License plate not found in MUR12.JPG
 [ HVH, ] MVH1: fell to HVH
 [ MWH, ] MWH1: fell to MWH
 [ 1NLV, ] MWK: fell to 1NLV
@@ -3201,6 +3275,7 @@ NAB4: cant detect
 [ NEN555, ] NEN-555: fell to NEN555
 [ NEN555, ] NEN555: success
 [ NEII, ] NET1T: fell to NEII
+License plate not found in NEVADA.JPG
 [ IIIAII, ] NEW51: fell to IIIAII
 [ HI,  3I,  II, ] NEW593: fell to HI
 [ II,  X7, ] NEW9: fell to II
@@ -3270,6 +3345,7 @@ NUI959: cant detect
 [ NY,  I1, ] NY1: fell to NY
 [ II, ] O-11: fell to II
 [ IJ2,  11Y,  J41, ] O10: fell to IJ2
+License plate not found in O11.JPG
 [ 0S, ] O5: partial success (2)
 [ LV27QOI, ] O53: fell to LV27QOI
 [ J3,  2X,  QJ,  XI,  1I, ] O888: fell to J3
@@ -3300,7 +3376,9 @@ OF1: cant detect
 [ I1IF, ] OLG132: fell to I1IF
 [ II,  5Y, ] OMA111: fell to II
 [ L5P,  AZ7, ] ONE51P: fell to L5P
+License plate not found in ONFIR3.JPG
 [ IIIIH, ] ONJ1: fell to IIIIH
+License plate not found in ONO35OZ.JPG
 [ 1D0D3CII, ] OO03CTY: fell to 1D0D3CII
 [ 0003PUG, ] OO03PUG: partial success (2)
 [ J04PU0, ] OO04PUG: fell to J04PU0
@@ -3346,6 +3424,7 @@ OO1812: cant detect
 [ MHH,  LYI, ] OW5313: fell to MHH
 [ I11, ] OW6918: fell to I11
 [ YSV, ] OWL82: fell to YSV
+License plate not found in OWN2.JPG
 [ 1HDMIM, ] OXK888: fell to 1HDMIM
 [ I4,  IJ,  IV,  XI,  II,  IF, ] OYB1: fell to I4
 [ D66B, ] OZ658: fell to D66B
@@ -3379,6 +3458,7 @@ OO1812: cant detect
 [ IPJJJX, ] P1JJT: fell to IPJJJX
 [ PN8H, ] P1NKH: fell to PN8H
 [ XXU, ] P1SCV: fell to XXU
+License plate not found in P2.JPG
 [ 2I7,  XI7, ] P200DES: fell to 2I7
 [ AT, ] P24NNE: fell to AT
 [ 1NAF, ] P26: fell to 1NAF
@@ -3387,6 +3467,7 @@ OO1812: cant detect
 [ IIIW9, ] P2GWA: fell to IIIW9
 [ P20II, ] P2GWW: fell to P20II
 [ PJ, ] P3: fell to PJ
+License plate not found in P333ONE.JPG
 [ P33KII, ] P33KYX: fell to P33KII
 [ LI,  II,  II,  BI, ] P33NDO: fell to LI
 [ PI806JN, ] P380GJM: fell to PI806JN
@@ -3421,6 +3502,7 @@ PAG7: cant detect
 [ DDH, ] PAJ131: fell to DDH
 [ AX,  AL,  II, ] PAL1: fell to AX
 [ PIF, ] PAL1F: fell to PIF
+License plate not found in PAM48.JPG
 [ PH830, ] PAM830: fell to PH830
 [ PIV88, ] PAM88: fell to PIV88
 [ PII83, ] PAM99: fell to PII83
@@ -3461,6 +3543,7 @@ PAT10: cant detect
 [ PFB82, ] PFB62: fell to PFB82
 [ PF820, ] PFB120: fell to PF820
 [ PFE24, ] PFE24: success
+License plate not found in PG454.JPG
 [ PC867, ] PGB67: fell to PC867
 [ UH, ] PGG478F: fell to UH
 [ P097I, ] PGR70: fell to P097I
@@ -3475,6 +3558,7 @@ PAT10: cant detect
 [ PHYS0S, ] PHY510S: fell to PHYS0S
 [ PD, ] PIB1: fell to PD
 [ PL6074, ] PIL6074: fell to PL6074
+License plate not found in PIS70N.JPG
 [ P742, ] PJ142: fell to P742
 [ IIKI, ] PJ7361: fell to IIKI
 [ AVX,  1LI,  7II,  IVC, ] PJH832: fell to AVX
@@ -3520,6 +3604,7 @@ PAT10: cant detect
 [ TTALLD, ] PRE795F: fell to TTALLD
 [ AU,  1I, ] PRESLEY: fell to AU
 [ MT12,  MTI4, ] PRO1: fell to MT12
+License plate not found in PROONE.JPG
 [ OUMD, ] PROTON: fell to OUMD
 [ II1, ] PS2161: fell to II1
 [ PSE890, ] PS2890: fell to PSE890
@@ -3656,6 +3741,7 @@ PAT10: cant detect
 [ REX, ] REX2: fell to REX
 [ QRVY, ] REX3: fell to QRVY
 [ YI, ] RF22: fell to YI
+License plate not found in RFK199M.JPG
 [ IDIKAH, ] RFO284: fell to IDIKAH
 [ RG027B, ] RG0278: fell to RG027B
 [ P0, ] RG11: fell to P0
@@ -3677,6 +3763,7 @@ PAT10: cant detect
 [ PJ87J, ] RJB173: fell to PJ87J
 [ RJC8, ] RJC8: success
 [ RJI5, ] RJT5: fell to RJI5
+License plate not found in RJT6.JPG
 [ PJU888M, ] RJU888M: fell to PJU888M
 [ T4, ] RJW1: fell to T4
 [ IK,  L0,  7I,  J1,  HJ, ] RK1: fell to IK
@@ -3686,6 +3773,7 @@ PAT10: cant detect
 [ PM,  I7,  ZP, ] RM1: fell to PM
 [ 7L,  X5, ] RM6487: fell to 7L
 [ PP778, ] RMR778: fell to PP778
+License plate not found in RMS.JPG
 [ HNGT0Y, ] RNGTOY: fell to HNGT0Y
 [ FI2, ] RO1: fell to FI2
 [ R05ELE, ] RO51ELE: fell to R05ELE
@@ -3698,6 +3786,7 @@ PAT10: cant detect
 [ 80II, ] ROB231: fell to 80II
 [ IP0B2B8, ] ROB268: fell to IP0B2B8
 [ I0B4Y,  R0B4Y, ] ROB4Y: fell to I0B4Y
+License plate not found in ROB517.JPG
 [ R0B9I, ] ROB911T: fell to R0B9I
 [ R0B332, ] ROB992: fell to R0B332
 [ III5, ] ROG12A: fell to III5
@@ -3718,6 +3807,7 @@ PAT10: cant detect
 ROYB: cant detect
 [ AA5,  NI5, ] RP1: fell to AA5
 [ IIIIB,  DD0DB, ] RP1951: fell to IIIIB
+License plate not found in RP35.JPG
 [ RP9B, ] RP98: fell to RP9B
 [ K7J, ] RPA45L: fell to K7J
 [ A7,  1I, ] RPA64L: fell to A7
@@ -3751,6 +3841,7 @@ RRW1: cant detect
 [ RUD6IB, ] RUD646: fell to RUD6IB
 [ 7I,  II,  XI, ] RUD928: fell to 7I
 [ IZ1I,  U0BY, ] RUG8Y: fell to IZ1I
+License plate not found in RUS1.JPG
 [ 65K5, ] RUS229: fell to 65K5
 [ RUS507, ] RUS507VCS: fell to RUS507
 [ PUX0N, ] RUX10N: fell to PUX0N
@@ -3849,6 +3940,7 @@ S3: cant detect
 [ II0FL0, ] S80VLO: fell to II0FL0
 [ LSBDE, ] S80XER: fell to LSBDE
 [ S8S, ] S86: fell to S8S
+License plate not found in S876XHJ.JPG
 [ S9PI, ] S8RAH: fell to S9PI
 [ SBIXI, ] S8XXX: fell to SBIXI
 [ S900A9, ] S90GAB: fell to S900A9
@@ -3878,6 +3970,7 @@ S99GTE-010709: cant detect
 [ SAI7, ] SAW7: fell to SAI7
 [ SII8, ] SAW8: fell to SII8
 [ SAI9, ] SAW9: fell to SAI9
+License plate not found in SB1.JPG
 [ 987I, ] SB9871: fell to 987I
 [ HIJMK, ] SBR1: fell to HIJMK
 [ S8I75N, ] SBW175N: fell to S8I75N
@@ -3894,6 +3987,7 @@ SCY1: cant detect
 [ A6UZ, ] SD1229: fell to A6UZ
 [ 0UDD, ] SDB99: fell to 0UDD
 [ DN944, ] SDN944: fell to DN944
+License plate not found in SE1.JPG
 [ PJJ1, ] SE4: fell to PJJ1
 [ 7XI, ] SE6999: fell to 7XI
 [ SEE2I, ] SEE21T: fell to SEE2I
@@ -3902,6 +3996,7 @@ SCY1: cant detect
 [ III, ] SEH32: fell to III
 [ 7AIK, ] SEP1: fell to 7AIK
 [ II2, ] SF2: fell to II2
+License plate not found in SFS.JPG
 [ IBHII, ] SGN1LWE87HAM: fell to IBHII
 [ S0T, ] SGT1: fell to S0T
 [ SHA2D, ] SHA2D: success
@@ -3947,11 +4042,13 @@ SJG172: cant detect
 [ SL04N, ] SLO4N: partial success (1)
 [ SHA, ] SM7: fell to SHA
 [ II7KI7I, ] SMC1: fell to II7KI7I
+License plate not found in SMP8M.JPG
 [ 7I111BRB1A, ] SMX1: fell to 7I111BRB1A
 [ SMYP, ] SMY1R: fell to SMYP
 [ IAI,  III, ] SN03JAG: fell to IAI
 [ SN03KER, ] SN03KER: success
 [ Q7I1,  XXZI, ] SN1: fell to Q7I1
+License plate not found in SN35.JPG
 [ SHS8IXU, ] SN58BKU: fell to SHS8IXU
 [ SN700, ] SN700: success
 [ SNB, ] SNB11: fell to SNB
@@ -4001,6 +4098,7 @@ STANG67: cant detect
 [ HD,  KX,  XT,  AN,  XJ,  FD,  II,  II, ] SV5483: fell to HD
 [ HII7,  7LH6, ] SV7224PB73LW2639YE6225FH1849: fell to HII7
 [ I1I1II, ] SVB2: fell to I1I1II
+License plate not found in SVC1.JPG
 [ S206,  720I, ] SVJ206: fell to S206
 [ XAYA,  IJLL,  NVAV, ] SW5: fell to XAYA
 [ II,  1I,  II, ] SW54: fell to II
@@ -4082,9 +4180,11 @@ T8STY: cant detect
 [ TIP8B,  LLIII, ] TAP98: fell to TIP8B
 [ 7A4N, ] TAR24N: fell to 7A4N
 [ 4IJ4, ] TB4: fell to 4IJ4
+License plate not found in TBD57.JPG
 [ I8F56B, ] TBF568: fell to I8F56B
 [ CZ7, ] TBK1: fell to CZ7
 [ 4BP33, ] TBP39: fell to 4BP33
+License plate not found in TBY145T.JPG
 [ TC2, ] TC2: success
 [ NLT, ] TC28: fell to NLT
 [ IC52, ] TC5231: fell to IC52
@@ -4159,6 +4259,7 @@ T8STY: cant detect
 [ IR0IC0I, ] TR05COT: fell to IR0IC0I
 [ TP0774R,  IH0774R, ] TR0774R: fell to TP0774R
 [ TP, ] TR1: fell to TP
+License plate not found in TR4.JPG
 TR6147: cant detect
 [ Q4, ] TRA715T: fell to Q4
 [ RTRAU5T, ] TRA751T: fell to RTRAU5T
@@ -4167,9 +4268,11 @@ TR6147: cant detect
 [ JI,  1I, ] TRU149: fell to JI
 [ 7PV472, ] TRU432: fell to 7PV472
 [ IRUSB0I, ] TRU56OT: fell to IRUSB0I
+License plate not found in TRY400S.JPG
 [ 1HY8U0, ] TRY800: fell to 1HY8U0
 [ N9L06U, ] TSA424: fell to N9L06U
 [ IX,  II, ] TSB1: fell to IX
+License plate not found in TSB77.JPG
 [ TS0786, ] TSC786: fell to TS0786
 [ I5L, ] TSE1: fell to I5L
 [ ISI0, ] TST10: fell to ISI0
@@ -4280,6 +4383,7 @@ UTT1: cant detect
 [ MIIIFI, ] V60WES.1: fell to MIIIFI
 [ V60IES, ] V60WES.2: fell to V60IES
 [ MIIIFI, ] V60WES: fell to MIIIFI
+License plate not found in V6CCY.JPG
 [ V6JC6, ] V6JCS: fell to V6JC6
 [ V6LVB, ] V6LVO: fell to V6LVB
 [ 5L,  V5,  X7, ] V780: fell to 5L
@@ -4329,6 +4433,7 @@ VD2: cant detect
 [ VNP40, ] VMR410: fell to VNP40
 [ NNJ, ] VNJ1: fell to NNJ
 [ VAP,  IY8,  I14, ] VNP1TG&WYB1: fell to VAP
+License plate not found in VNU1S.JPG
 [ V043, ] VO143: fell to V043
 [ III, ] VP1: fell to III
 [ IIIII, ] VRD56: fell to IIIII
@@ -4373,6 +4478,7 @@ VSP1: cant detect
 [ I441LEC, ] W444LEC: fell to I441LEC
 [ I44EEN, ] W44EEM: fell to I44EEN
 [ N41, ] W44GJB: fell to N41
+License plate not found in W44NDY.JPG
 [ I445SI, ] W44SSM: fell to I445SI
 [ I9OI, ] W4BDM: fell to I9OI
 [ H4RP, ] W4RPB: fell to H4RP
@@ -4501,6 +4607,7 @@ X4KYX: cant detect
 [ Q02,  0XT, ] XP2915: fell to Q02
 [ IIPFS63S, ] XPF563S: fell to IIPFS63S
 [ VIIA, ] XU710: fell to VIIA
+License plate not found in XUF1.JPG
 [ 7XI, ] XWW1: fell to 7XI
 [ XX62S, ] XXI525: fell to XX62S
 [ IIJJ, ] XY1029: fell to IIJJ
@@ -4541,6 +4648,7 @@ YBL1: cant detect
 [ UA7,  7IV,  HHH,  FUU, ] YG1: fell to UA7
 [ YH,  7F,  7F,  FI, ] YH1: fell to YH
 [ YHK10,  YHK30, ] YHK310: fell to YHK10
+License plate not found in YHU41.JPG
 [ NNC,  T7I, ] YJ2098: fell to NNC
 [ IVTW, ] YKJ1: fell to IVTW
 [ UDLTX, ] YKK661: fell to UDLTX
@@ -4561,9 +4669,11 @@ YBL1: cant detect
 [ LLDLH, ] YTV1: fell to LLDLH
 [ YUY8,  JZ7K, ] YUY9: fell to YUY8
 [ XXI,  XII,  III,  PL7, ] YYJ651: fell to XXI
+License plate not found in YZ1.JPG
 [ NTT, ] ZMF: fell to NTT
 
 
-Number of Success: 266
-Number of Failure: 4298
- % Success: 0.0582822
+Number of Success: 192
+Number of Partial Success: 74
+Number of Failure: 4407
+ % Success: 0.0569227

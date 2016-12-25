@@ -22,6 +22,7 @@ int main(void) {
 	partial_success_out.open("partial_success.txt");
 	int nSuccess = 0;
 	int nFail = 0;
+	int nPartialSuccess = 0;
 	for (int i = 0; i < names.size(); ++i) {
 		std::cout << names[i] << std::endl;
 
@@ -41,6 +42,9 @@ int main(void) {
 
 		if (vectorOfPossiblePlates.empty()) {                                               // if no plates were found
 			std::cout << std::endl << "no license plates were detected" << std::endl;       // inform user no plates were found
+			++nFail;
+			fout << "License plate not found in " << names[i] << endl;
+			fail_out << "License plate not found in " << names[i] << endl;
 		}
 		else {
 			// else
@@ -62,7 +66,7 @@ int main(void) {
 			}
 			//cv::imshow("imgPlate", licPlate.imgPlate);            // show crop of plate and threshold of plate
 			//cv::imshow("imgThresh", licPlate.imgThresh);
-			
+
 			if (licPlate.strChars.length() == 0) {                                                      // if no chars were found in the plate
 				std::cout << std::endl << "no characters were detected" << std::endl << std::endl;      // show message
 				//return(0);                                                                              // and exit program
@@ -73,25 +77,31 @@ int main(void) {
 			else {
 				fout << '[';
 				for (int j = 0; j < fairest.size(); ++j) {
-					fout <<" " <<fairest[j].strChars << ", ";
+					fout << " " << fairest[j].strChars << ", ";
 				}
 				fout << "] ";
 				int compare_result = compareString(toLower(new_name), toLower(licPlate.strChars));
+				drawRedRectangleAroundPlate(imgOriginalScene, licPlate);
+				writeLicensePlateCharsOnImage(imgOriginalScene, licPlate);
 				switch (compare_result) {
 				case -1:
 					fout << new_name << ": fell to " << licPlate.strChars << endl;
 					fail_out << new_name << ": fell to " << licPlate.strChars << endl;
 					++nFail;
+					cv::imwrite("Failed_images/" + names[i], imgOriginalScene);
+
 					break;
 				case 0:
 					fout << new_name << ": success" << endl;
 					success_out << new_name << endl;
 					++nSuccess;
+					cv::imwrite("Success_images/" + names[i], imgOriginalScene);
 					break;
 				default:
 					fout << new_name << ": partial success (" << compare_result << ")" << endl;
 					partial_success_out << new_name << ": fell to " << licPlate.strChars << " (" << compare_result << ")" << endl;
-					++nSuccess;
+					++nPartialSuccess;
+					cv::imwrite("Partial_success_images/" + names[i], imgOriginalScene);
 				}
 
 				//drawRedRectangleAroundPlate(imgOriginalScene, licPlate);                // draw red rectangle around plate
@@ -103,7 +113,7 @@ int main(void) {
 
 				//cv::imshow("imgOriginalScene", imgOriginalScene);                       // re-show scene image
 
-				//cv::imwrite("imgOriginalScene.png", imgOriginalScene);                  // write image out to file
+				cv::imwrite("Outs/" + new_name + ".jpg", imgOriginalScene);                  // write image out to file
 			}
 		}
 
@@ -113,10 +123,12 @@ int main(void) {
 	fout << endl << endl;
 	cout << "Number of Success: " << nSuccess << endl;
 	fout << "Number of Success: " << nSuccess << endl;
+	cout << "Number of Partial Success: " << nPartialSuccess << endl;
+	fout << "Number of Partial Success: " << nPartialSuccess << endl;
 	cout << "Number of Failure: " << nFail << endl;
 	fout << "Number of Failure: " << nFail << endl;
-	cout << " % Success: " << (float)nSuccess / ((float)(nSuccess + nFail)) << endl;
-	fout << " % Success: " << (float)nSuccess / ((float)(nSuccess + nFail)) << endl;
+	cout << " % Success: " << (float)(nSuccess + nPartialSuccess) / ((float)(nSuccess + nPartialSuccess + nFail)) << endl;
+	fout << " % Success: " << (float)(nSuccess + nPartialSuccess) / ((float)(nSuccess + nPartialSuccess + nFail)) << endl;
 	fout.close();
 	fail_out.close();
 	success_out.close();

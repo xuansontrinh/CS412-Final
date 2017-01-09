@@ -74,7 +74,7 @@ std::vector<PossiblePlate> detectPlatesInScene(cv::Mat &imgOriginalScene) {
         }
     }
 
-    std::cout << std::endl << vectorOfPossiblePlates.size() << " possible plates found" << std::endl;       // 13 with MCLRNF1 image
+    //std::cout << std::endl << vectorOfPossiblePlates.size() << " possible plates found" << std::endl;       // 13 with MCLRNF1 image
 
 #ifdef SHOW_STEPS
     std::cout << std::endl;

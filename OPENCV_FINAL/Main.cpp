@@ -1,10 +1,19 @@
 // Main.cpp
 
 #include "Main.h"
+#include "conio.h"
 using namespace std;
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 string folder1 = "D:\\All\ About\ CS\ -\ New\\CS412\ -\ Computer Vision\\OpenCV_3_License_Plate_Recognition_Cpp-master\\LicPlateImages";
 string folder2 = "D:\\All\ About\ CS\ -\ New\\CS412\ -\ Computer\ Vision\\OpenCV_3_License_Plate_Recognition_Cpp-master\\License\ Plates";
+int nextPlate = 0;
+
+vector<string> menu = {
+	"\n\n\n\n",
+	"[1] Traverse through images and their recognition result in images one by one",
+	"[2] Go through all the images to get % accuracy result in the dataset",
+	"[Other key] Exit"
+};
 int main(void) {
 
 	bool blnKNNTrainingSuccessful = loadKNNDataAndTrainKNN();           // attempt KNN training
@@ -15,124 +24,199 @@ int main(void) {
 		return(0);                                                      // and exit program
 	}
 	std::vector<std::string> names = get_file_list(folder2);
-	std::ofstream fout, fail_out, success_out, partial_success_out;
-	fout.open("result.txt");
-	fail_out.open("failed.txt");
-	success_out.open("success.txt");
-	partial_success_out.open("partial_success.txt");
-	int nSuccess = 0;
-	int nFail = 0;
-	int nPartialSuccess = 0;
-	for (int i = 0; i < names.size(); ++i) {
-		std::cout << names[i] << std::endl;
-
-		cv::Mat imgOriginalScene;           // input image
-		imgOriginalScene = cv::imread(folder2 + "\\" + names[i]);         // open image
-
-		if (imgOriginalScene.empty()) {                             // if unable to open image
-			std::cout << "error: image not read from file\n\n";     // show error message on command line
-			continue;                                             // and exit program
-		}
-
-		std::vector<PossiblePlate> vectorOfPossiblePlates = detectPlatesInScene(imgOriginalScene);          // detect plates
-
-		vectorOfPossiblePlates = detectCharsInPlates(vectorOfPossiblePlates);                               // detect chars in plates
-
-		//cv::imshow("imgOriginalScene", imgOriginalScene);           // show scene image
-
-		if (vectorOfPossiblePlates.empty()) {                                               // if no plates were found
-			std::cout << std::endl << "no license plates were detected" << std::endl;       // inform user no plates were found
-			++nFail;
-			fout << "License plate not found in " << names[i] << endl;
-			fail_out << "License plate not found in " << names[i] << endl;
-		}
-		else {
-			// else
-			string new_name = refineString(removeExtension(names[i]));
-			// if we get in here vector of possible plates has at leat one plate
-
-			// sort the vector of possible plates in DESCENDING order (most number of chars to least number of chars)
-			std::sort(vectorOfPossiblePlates.begin(), vectorOfPossiblePlates.end(), PossiblePlate::sortDescendingByNumberOfChars);
-
-			// suppose the plate with the most recognized chars (the first plate in sorted by string length descending order) is the actual plate
-			PossiblePlate licPlate = vectorOfPossiblePlates.front();
-			vector<PossiblePlate> fairest;
-			fairest.push_back(licPlate);
-			for (int j = 1; j < vectorOfPossiblePlates.size(); ++j) {
-				if (vectorOfPossiblePlates[j].strChars.size() == licPlate.strChars.size())
-					fairest.push_back(vectorOfPossiblePlates[j]);
-				else
-					break;
+	char choice = 0;
+	char prevChoice;
+	prevChoice = 0;
+	do {
+		if (prevChoice != '1') {
+			for (int iMenu = 0; iMenu < menu.size(); ++iMenu) {
+				std::cout << menu[iMenu] << endl;
 			}
-			//cv::imshow("imgPlate", licPlate.imgPlate);            // show crop of plate and threshold of plate
-			//cv::imshow("imgThresh", licPlate.imgThresh);
+			std::cout << "Your choice: ";
+			prevChoice = choice;
+			choice = _getch();
+		}
+		if (choice == '1')
+		{
+			cv::Mat imgOriginalScene;           // input image
+			imgOriginalScene = cv::imread(folder2 + "\\" + names[nextPlate]);         // open image
 
-			if (licPlate.strChars.length() == 0) {                                                      // if no chars were found in the plate
-				std::cout << std::endl << "no characters were detected" << std::endl << std::endl;      // show message
-				//return(0);                                                                              // and exit program
-				fout << new_name << ": cant detect" << endl;
-				fail_out << new_name << ": cant detect" << endl;
-				++nFail;
+
+			if (imgOriginalScene.empty()) {                             // if unable to open image
+				std::cout << "error: image not read from file\n\n";     // show error message on command line
+				continue;
+			}
+
+			std::vector<PossiblePlate> vectorOfPossiblePlates = detectPlatesInScene(imgOriginalScene);          // detect plates
+
+			vectorOfPossiblePlates = detectCharsInPlates(vectorOfPossiblePlates);                               // detect chars in plates
+
+																												//cv::imshow("imgOriginalScene", imgOriginalScene);           // show scene image
+
+			if (vectorOfPossiblePlates.empty()) {                                               // if no plates were found
+				std::cout << std::endl << "no license plates were detected" << std::endl;       // inform user no plates were found
 			}
 			else {
-				fout << '[';
-				for (int j = 0; j < fairest.size(); ++j) {
-					fout << " " << fairest[j].strChars << ", ";
+				// else
+				string new_name = refineString(removeExtension(names[nextPlate]));
+				// if we get in here vector of possible plates has at leat one plate
+
+				// sort the vector of possible plates in DESCENDING order (most number of chars to least number of chars)
+				std::sort(vectorOfPossiblePlates.begin(), vectorOfPossiblePlates.end(), PossiblePlate::sortDescendingByNumberOfChars);
+
+				// suppose the plate with the most recognized chars (the first plate in sorted by string length descending order) is the actual plate
+				PossiblePlate licPlate = vectorOfPossiblePlates.front();
+				cv::imshow("imgPlate", licPlate.imgPlate);            // show crop of plate and threshold of plate
+				cv::imshow("imgThresh", licPlate.imgThresh);
+
+				if (licPlate.strChars.length() == 0) {                                                      // if no chars were found in the plate
+					std::cout << std::endl << "no characters were detected" << std::endl << std::endl;      // show message
+																											//return(0);                                 
 				}
-				fout << "] ";
-				int compare_result = compareString(toLower(new_name), toLower(licPlate.strChars));
-				drawRedRectangleAroundPlate(imgOriginalScene, licPlate);
-				writeLicensePlateCharsOnImage(imgOriginalScene, licPlate);
-				switch (compare_result) {
-				case -1:
-					fout << new_name << ": fell to " << licPlate.strChars << endl;
-					fail_out << new_name << ": fell to " << licPlate.strChars << endl;
-					++nFail;
-					cv::imwrite("Failed_images/" + names[i], imgOriginalScene);
-
-					break;
-				case 0:
-					fout << new_name << ": success" << endl;
-					success_out << new_name << endl;
-					++nSuccess;
-					cv::imwrite("Success_images/" + names[i], imgOriginalScene);
-					break;
-				default:
-					fout << new_name << ": partial success (" << compare_result << ")" << endl;
-					partial_success_out << new_name << ": fell to " << licPlate.strChars << " (" << compare_result << ")" << endl;
-					++nPartialSuccess;
-					cv::imwrite("Partial_success_images/" + names[i], imgOriginalScene);
+				else {
+					std::cout << std::endl << "license plate read from image = " << licPlate.strChars << std::endl;     // write license plate text to std out
+					std::cout << std::endl << "-----------------------------------------" << std::endl;
+					drawRedRectangleAroundPlate(imgOriginalScene, licPlate);
+					writeLicensePlateCharsOnImage(imgOriginalScene, licPlate);
+					cv::imshow("imgResult", imgOriginalScene);
 				}
-
-				//drawRedRectangleAroundPlate(imgOriginalScene, licPlate);                // draw red rectangle around plate
-
-				//std::cout << std::endl << "license plate read from image = " << licPlate.strChars << std::endl;     // write license plate text to std out
-				//std::cout << std::endl << "-----------------------------------------" << std::endl;
-
-				//writeLicensePlateCharsOnImage(imgOriginalScene, licPlate);              // write license plate text on the image
-
-				//cv::imshow("imgOriginalScene", imgOriginalScene);                       // re-show scene image
-
-				cv::imwrite("Outs/" + new_name + ".jpg", imgOriginalScene);                  // write image out to file
 			}
-		}
 
-		//cv::waitKey(0);                 // hold windows open until user presses a key
-	}
-	cout << endl << endl;
-	fout << endl << endl;
-	cout << "Number of Success: " << nSuccess << endl;
-	fout << "Number of Success: " << nSuccess << endl;
-	cout << "Number of Partial Success: " << nPartialSuccess << endl;
-	fout << "Number of Partial Success: " << nPartialSuccess << endl;
-	cout << "Number of Failure: " << nFail << endl;
-	fout << "Number of Failure: " << nFail << endl;
-	cout << " % Success: " << (float)(nSuccess + nPartialSuccess) / ((float)(nSuccess + nPartialSuccess + nFail)) << endl;
-	fout << " % Success: " << (float)(nSuccess + nPartialSuccess) / ((float)(nSuccess + nPartialSuccess + nFail)) << endl;
-	fout.close();
-	fail_out.close();
-	success_out.close();
-	partial_success_out.close();
+			for (int iMenu = 0; iMenu < menu.size(); ++iMenu) {
+				std::cout << menu[iMenu] << endl;
+			}
+			std::cout << "Your choice: ";
+			prevChoice = choice;
+			choice = cv::waitKey(0);                 // hold windows open until user presses a key
+
+			++nextPlate;
+			nextPlate %= names.size();
+		}
+		else if (choice == '2')
+		{
+
+			std::ofstream fout, fail_out, success_out, partial_success_out;
+			fout.open("result.txt");
+			fail_out.open("failed.txt");
+			success_out.open("success.txt");
+			partial_success_out.open("partial_success.txt");
+			int nSuccess = 0;
+			int nFail = 0;
+			int nPartialSuccess = 0;
+			for (int i = 0; i < names.size(); ++i) {
+
+				cv::Mat imgOriginalScene;           // input image
+				imgOriginalScene = cv::imread(folder2 + "\\" + names[i]);         // open image
+
+				if (imgOriginalScene.empty()) {                             // if unable to open image
+					std::cout << "error: image not read from file\n\n";     // show error message on command line
+					continue;
+				}
+
+				std::vector<PossiblePlate> vectorOfPossiblePlates = detectPlatesInScene(imgOriginalScene);          // detect plates
+
+				vectorOfPossiblePlates = detectCharsInPlates(vectorOfPossiblePlates);                               // detect chars in plates
+
+																													//cv::imshow("imgOriginalScene", imgOriginalScene);           // show scene image
+
+				if (vectorOfPossiblePlates.empty()) {         // inform user no plates were found
+					++nFail;
+					fout << "License plate not found in " << names[i] << endl;
+					fail_out << "License plate not found in " << names[i] << endl;
+				}
+				else {
+					// else
+					string new_name = refineString(removeExtension(names[i]));
+					// if we get in here vector of possible plates has at leat one plate
+
+					// sort the vector of possible plates in DESCENDING order (most number of chars to least number of chars)
+					std::sort(vectorOfPossiblePlates.begin(), vectorOfPossiblePlates.end(), PossiblePlate::sortDescendingByNumberOfChars);
+
+					// suppose the plate with the most recognized chars (the first plate in sorted by string length descending order) is the actual plate
+					PossiblePlate licPlate = vectorOfPossiblePlates.front();
+					vector<PossiblePlate> fairest;
+					fairest.push_back(licPlate);
+					for (int j = 1; j < vectorOfPossiblePlates.size(); ++j) {
+						if (vectorOfPossiblePlates[j].strChars.size() == licPlate.strChars.size())
+							fairest.push_back(vectorOfPossiblePlates[j]);
+						else
+							break;
+					}
+					//cv::imshow("imgPlate", licPlate.imgPlate);            // show crop of plate and threshold of plate
+					//cv::imshow("imgThresh", licPlate.imgThresh);
+
+					if (licPlate.strChars.length() == 0) {                                                      // if no chars were found in the plate
+						std::cout << std::endl << "no characters were detected" << std::endl << std::endl;      // show message
+																												//return(0);                                                                              // and exit program
+						fout << new_name << ": cant detect" << endl;
+						fail_out << new_name << ": cant detect" << endl;
+						++nFail;
+					}
+					else {
+						fout << '[';
+						for (int j = 0; j < fairest.size(); ++j) {
+							fout << " " << fairest[j].strChars << ", ";
+						}
+						fout << "] ";
+						int compare_result = compareString(toLower(new_name), toLower(licPlate.strChars));
+						drawRedRectangleAroundPlate(imgOriginalScene, licPlate);
+						writeLicensePlateCharsOnImage(imgOriginalScene, licPlate);
+						switch (compare_result) {
+						case -1:
+							fout << new_name << ": fell to " << licPlate.strChars << endl;
+							fail_out << new_name << ": fell to " << licPlate.strChars << endl;
+							++nFail;
+							cv::imwrite("Failed_images/" + names[i], imgOriginalScene);
+
+							break;
+						case 0:
+							fout << new_name << ": success" << endl;
+							success_out << new_name << endl;
+							++nSuccess;
+							cv::imwrite("Success_images/" + names[i], imgOriginalScene);
+							break;
+						default:
+							fout << new_name << ": partial success (" << compare_result << ")" << endl;
+							partial_success_out << new_name << ": fell to " << licPlate.strChars << " (" << compare_result << ")" << endl;
+							++nPartialSuccess;
+							cv::imwrite("Partial_success_images/" + names[i], imgOriginalScene);
+						}
+
+						//drawRedRectangleAroundPlate(imgOriginalScene, licPlate);                // draw red rectangle around plate
+
+						//std::cout << std::endl << "license plate read from image = " << licPlate.strChars << std::endl;     // write license plate text to std out
+						//std::cout << std::endl << "-----------------------------------------" << std::endl;
+
+						//writeLicensePlateCharsOnImage(imgOriginalScene, licPlate);              // write license plate text on the image
+
+						//cv::imshow("imgOriginalScene", imgOriginalScene);                       // re-show scene image
+
+						cv::imwrite("Outs/" + new_name + ".jpg", imgOriginalScene);                  // write image out to file
+					}
+				}
+				std::cout << i << "/" << names.size() << " completed" << endl;
+				//cv::waitKey(0);                 // hold windows open until user presses a key
+			}
+			std::cout << endl << endl;
+			fout << endl << endl;
+			std::cout << "Number of Success: " << nSuccess << endl;
+			fout << "Number of Success: " << nSuccess << endl;
+			std::cout << "Number of Partial Success: " << nPartialSuccess << endl;
+			fout << "Number of Partial Success: " << nPartialSuccess << endl;
+			std::cout << "Number of Failure: " << nFail << endl;
+			fout << "Number of Failure: " << nFail << endl;
+			std::cout << " % Success: " << (float)(nSuccess + nPartialSuccess) / ((float)(nSuccess + nPartialSuccess + nFail)) << endl;
+			fout << " % Success: " << (float)(nSuccess + nPartialSuccess) / ((float)(nSuccess + nPartialSuccess + nFail)) << endl;
+			fout.close();
+			fail_out.close();
+			success_out.close();
+			partial_success_out.close();
+			cout << "Check out [result.txt], [success.txt], [failed,txt], [partial_success.txt] for further detail" << endl;
+			prevChoice = choice;
+		}
+		else
+			break;
+	} while (true);
 	return(0);
 }
 

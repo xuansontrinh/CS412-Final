@@ -4,8 +4,7 @@
 #include "conio.h"
 using namespace std;
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-string folder1 = "D:\\All\ About\ CS\ -\ New\\CS412\ -\ Computer Vision\\OpenCV_3_License_Plate_Recognition_Cpp-master\\LicPlateImages";
-string folder2 = "D:\\All\ About\ CS\ -\ New\\CS412\ -\ Computer\ Vision\\OpenCV_3_License_Plate_Recognition_Cpp-master\\License\ Plates";
+string folder;
 int nextPlate = 0;
 
 vector<string> menu = {
@@ -23,10 +22,22 @@ int main(void) {
 		std::cout << std::endl << std::endl << "error: error: KNN traning was not successful" << std::endl << std::endl;
 		return(0);                                                      // and exit program
 	}
-	std::vector<std::string> names = get_file_list(folder2);
+
+	std::cout << "Path to dataset: ";
+	getline(std::cin, folder);
+	if (!boost::filesystem::exists(boost::filesystem::path(folder)))
+	{
+		std::cout << "The directory does not exist." << endl;
+		return -1;
+	}
+
+	std::vector<std::string> names = get_file_list(folder);
 	char choice = 0;
 	char prevChoice;
 	prevChoice = 0;
+
+	create_folders({ "Success_images", "Partial_success_images", "Failed_images" });
+
 	do {
 		if (prevChoice != '1') {
 			for (int iMenu = 0; iMenu < menu.size(); ++iMenu) {
@@ -39,7 +50,7 @@ int main(void) {
 		if (choice == '1')
 		{
 			cv::Mat imgOriginalScene;           // input image
-			imgOriginalScene = cv::imread(folder2 + "\\" + names[nextPlate]);         // open image
+			imgOriginalScene = cv::imread(folder + "\\" + names[nextPlate]);         // open image
 
 
 			if (imgOriginalScene.empty()) {                             // if unable to open image
@@ -106,7 +117,7 @@ int main(void) {
 			for (int i = 0; i < names.size(); ++i) {
 
 				cv::Mat imgOriginalScene;           // input image
-				imgOriginalScene = cv::imread(folder2 + "\\" + names[i]);         // open image
+				imgOriginalScene = cv::imread(folder + "\\" + names[i]);         // open image
 
 				if (imgOriginalScene.empty()) {                             // if unable to open image
 					std::cout << "error: image not read from file\n\n";     // show error message on command line
@@ -191,7 +202,7 @@ int main(void) {
 
 						//cv::imshow("imgOriginalScene", imgOriginalScene);                       // re-show scene image
 
-						cv::imwrite("Outs/" + new_name + ".jpg", imgOriginalScene);                  // write image out to file
+						//cv::imwrite("Outs/" + new_name + ".jpg", imgOriginalScene);                  // write image out to file
 					}
 				}
 				std::cout << i << "/" << names.size() << " completed" << endl;
@@ -199,19 +210,19 @@ int main(void) {
 			}
 			std::cout << endl << endl;
 			fout << endl << endl;
-			std::cout << "Number of Success: " << nSuccess << endl;
-			fout << "Number of Success: " << nSuccess << endl;
-			std::cout << "Number of Partial Success: " << nPartialSuccess << endl;
-			fout << "Number of Partial Success: " << nPartialSuccess << endl;
-			std::cout << "Number of Failure: " << nFail << endl;
-			fout << "Number of Failure: " << nFail << endl;
-			std::cout << " % Success: " << (float)(nSuccess + nPartialSuccess) / ((float)(nSuccess + nPartialSuccess + nFail)) << endl;
-			fout << " % Success: " << (float)(nSuccess + nPartialSuccess) / ((float)(nSuccess + nPartialSuccess + nFail)) << endl;
+			std::cout << "Number of Successes: " << nSuccess << endl;
+			fout << "Number of Successes: " << nSuccess << endl;
+			std::cout << "Number of Partial Successes: " << nPartialSuccess << endl;
+			fout << "Number of Partial Successes: " << nPartialSuccess << endl;
+			std::cout << "Number of Failures: " << nFail << endl;
+			fout << "Number of Failures: " << nFail << endl;
+			std::cout << " % Success: " << (float)(nSuccess + nPartialSuccess) / ((float)(nSuccess + nPartialSuccess + nFail)) * 100 << "%" << endl;
+			fout << " % Success: " << (float)(nSuccess + nPartialSuccess) / ((float)(nSuccess + nPartialSuccess + nFail)) * 100 << "%" << endl;
 			fout.close();
 			fail_out.close();
 			success_out.close();
 			partial_success_out.close();
-			cout << "Check out [result.txt], [success.txt], [failed,txt], [partial_success.txt] for further detail" << endl;
+			std::cout << "Check out [result.txt], [success.txt], [failed,txt], [partial_success.txt] for further detail" << endl;
 			prevChoice = choice;
 		}
 		else
@@ -284,6 +295,17 @@ std::vector<std::string> get_file_list(const std::string& path)
 	return m_file_list;
 }
 
+
+void create_folders(const std::vector<string>& folders)
+{
+	namespace fs = boost::filesystem;
+	for (int i = 0; i < folders.size(); ++i)
+	{
+		fs::path path(folders[i]);
+		if (!fs::exists(path))
+			fs::create_directory(path);
+	}
+}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 void drawRedRectangleAroundPlate(cv::Mat &imgOriginalScene, PossiblePlate &licPlate) {

@@ -33,6 +33,7 @@ int main(void);
 void drawRedRectangleAroundPlate(cv::Mat &imgOriginalScene, PossiblePlate &licPlate);
 void writeLicensePlateCharsOnImage(cv::Mat &imgOriginalScene, PossiblePlate &licPlate);
 std::vector<std::string> get_file_list(const std::string& path);
+void create_folders(const std::vector<string>& folders);
 std::string toLower(string s);
 string removeExtension(string s);
 string refineString(string s);
